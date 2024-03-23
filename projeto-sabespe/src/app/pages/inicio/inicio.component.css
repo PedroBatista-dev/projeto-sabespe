@@ -1,0 +1,97 @@
+.tela-de-descanso-x {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .tela-de-descanso-x .div {
+    background-color: #f9f9f9;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .tela-de-descanso-x .overlap {
+    width: 586px;
+    top: 226px;
+    left: 1180px;
+    position: absolute;
+    height: 691px;
+  }
+  
+  .tela-de-descanso-x .ativo {
+    width: 377px;
+    height: 326px;
+    top: 365px;
+    left: 209px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .tela-de-descanso-x .mask-group {
+    position: absolute;
+    width: 569px;
+    height: 612px;
+    top: 0;
+    left: 0;
+  }
+  
+  .tela-de-descanso-x .overlap-group {
+    width: 1078px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 691px;
+  }
+  
+  .tela-de-descanso-x .img {
+    width: 960px;
+    height: 572px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .tela-de-descanso-x .superintend-ncia {
+    position: absolute;
+    width: 938px;
+    top: 451px;
+    left: 140px;
+    mix-blend-mode: multiply;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: rgba(18, 208, 255, 1);
+    font-size: 90px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .tela-de-descanso-x .group {
+    width: 102px;
+    left: 101px;
+    position: absolute;
+    height: 93px;
+    top: 948px;
+  }
+  
+  .tela-de-descanso-x .vector-wrapper {
+    width: 101px;
+    left: 1766px;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    height: 93px;
+    top: 948px;
+  }
+  
+  .tela-de-descanso-x .vector {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 20px;
+    left: 27px;
+  }
+  
