@@ -1,0 +1,195 @@
+.voc-sabia-polo-mooca {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .voc-sabia-polo-mooca .div {
+    background-color: #f9f9f9;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .voc-sabia-polo-mooca .overlap {
+    position: absolute;
+    width: 1844px;
+    height: 889px;
+    top: 0;
+    left: 0;
+  }
+  
+  .voc-sabia-polo-mooca .overlap-group {
+    position: absolute;
+    width: 845px;
+    height: 829px;
+    top: 0;
+    left: 0;
+  }
+  
+  .voc-sabia-polo-mooca .group {
+    position: absolute;
+    width: 439px;
+    height: 248px;
+    top: 290px;
+    left: 254px;
+  }
+  
+  .voc-sabia-polo-mooca .overlap-group-2 {
+    position: relative;
+    width: 435px;
+    height: 248px;
+  }
+  
+  .voc-sabia-polo-mooca .voc {
+    position: absolute;
+    width: 352px;
+    top: 0;
+    left: 0;
+    mix-blend-mode: multiply;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: rgba(18, 208, 255, 1);
+    font-size: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .voc-sabia-polo-mooca .sabia {
+    position: absolute;
+    width: 435px;
+    top: 83px;
+    left: 0;
+    mix-blend-mode: multiply;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: rgba(255, 198, 1, 1);
+    font-size: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .voc-sabia-polo-mooca .a-atual-identidade {
+    position: absolute;
+    width: 591px;
+    top: 537px;
+    left: 254px;
+    font-family: "Satoshi-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .voc-sabia-polo-mooca .ativo {
+    position: absolute;
+    width: 325px;
+    height: 416px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .voc-sabia-polo-mooca .overlap-2 {
+    position: absolute;
+    width: 1032px;
+    height: 889px;
+    top: 0;
+    left: 812px;
+  }
+  
+  .voc-sabia-polo-mooca .mask-group {
+    position: absolute;
+    width: 654px;
+    height: 889px;
+    top: 0;
+    left: 378px;
+  }
+  
+  .voc-sabia-polo-mooca .img {
+    position: absolute;
+    width: 378px;
+    height: 375px;
+    top: 0;
+    left: 0;
+  }
+  
+  .voc-sabia-polo-mooca .rectangle-wrapper {
+    position: absolute;
+    width: 18px;
+    height: 307px;
+    top: 536px;
+    left: 878px;
+    background-color: #ececec;
+  }
+  
+  .voc-sabia-polo-mooca .rectangle {
+    height: 104px;
+    background-color: #d9d9d9;
+  }
+  
+  .voc-sabia-polo-mooca .vector-wrapper {
+    position: absolute;
+    width: 101px;
+    height: 93px;
+    top: 928px;
+    left: 1635px;
+    
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .voc-sabia-polo-mooca .vector {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 21px;
+    left: 33px;
+  }
+  
+  .voc-sabia-polo-mooca .group-2 {
+    position: absolute;
+    width: 101px;
+    height: 93px;
+    top: 928px;
+    left: 186px;
+  }
+  
+  .voc-sabia-polo-mooca .frame {
+    position: absolute;
+    width: 1920px;
+    height: 18px;
+    top: 1062px;
+    left: 0;
+  }
+  
+  .voc-sabia-polo-mooca .group-3 {
+    position: absolute;
+    width: 102px;
+    height: 93px;
+    top: 928px;
+    left: 78px;
+  }
+  
+  .voc-sabia-polo-mooca .img-wrapper {
+    position: absolute;
+    width: 101px;
+    height: 93px;
+    top: 928px;
+    left: 1743px;
+    
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .voc-sabia-polo-mooca .vector-2 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 20px;
+    left: 27px;
+  }
+  

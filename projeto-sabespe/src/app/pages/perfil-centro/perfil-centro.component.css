@@ -1,0 +1,554 @@
+.home {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home .div {
+    background-color: #f9f9f9;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .home .overlap {
+    position: absolute;
+    width: 1828px;
+    height: 973px;
+    top: 48px;
+    left: 52px;
+  }
+  
+  .home .overlap-group {
+    position: absolute;
+    width: 511px;
+    height: 72px;
+    top: 4px;
+    left: 0;
+  }
+  
+  .home .perfil-superintend {
+    position: absolute;
+    width: 511px;
+    top: 0;
+    left: 0;
+    mix-blend-mode: multiply;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: rgba(18, 208, 255, 1);
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .centro-oc {
+    position: absolute;
+    width: 250px;
+    top: 23px;
+    left: 0;
+    mix-blend-mode: multiply;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: rgba(255, 198, 1, 1);
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .overlap-2 {
+    position: absolute;
+    width: 1658px;
+    height: 890px;
+    top: 0;
+    left: 170px;
+  }
+  
+  .home .overlap-3 {
+    position: absolute;
+    width: 1553px;
+    height: 744px;
+    top: 102px;
+    left: 0;
+  }
+  
+  .home .group {
+    position: absolute;
+    width: 1331px;
+    height: 536px;
+    top: 137px;
+    left: 123px;
+  }
+  
+  .home .line {
+    width: 461px;
+    height: 25px;
+    top: 244px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .home .img {
+    width: 204px;
+    height: 151px;
+    top: 21px;
+    left: 271px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .home .line-2 {
+    width: 1px;
+    height: 162px;
+    top: 0;
+    left: 612px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .home .line-3 {
+    width: 143px;
+    height: 75px;
+    top: 96px;
+    left: 748px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .home .line-4 {
+    width: 566px;
+    height: 90px;
+    top: 199px;
+    left: 765px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .home .overlap-group-2 {
+    position: absolute;
+    width: 577px;
+    height: 189px;
+    top: 347px;
+    left: 606px;
+  }
+  
+  .home .line-5 {
+    width: 433px;
+    height: 122px;
+    top: 0;
+    left: 144px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .home .line-6 {
+    width: 237px;
+    height: 189px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .home .line-7 {
+    width: 225px;
+    height: 143px;
+    top: 345px;
+    left: 248px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .home .ativo {
+    height: 145px;
+    top: 294px;
+    left: 0;
+    position: absolute;
+    width: 152px;
+    object-fit: cover;
+  }
+  
+  .home .ativo-2 {
+    height: 145px;
+    top: 599px;
+    left: 898px;
+    position: absolute;
+    width: 152px;
+    object-fit: cover;
+  }
+  
+  .home .ativo-3 {
+    height: 144px;
+    top: 82px;
+    left: 297px;
+    position: absolute;
+    width: 152px;
+    object-fit: cover;
+  }
+  
+  .home .ativo-4 {
+    height: 144px;
+    top: 527px;
+    left: 1217px;
+    position: absolute;
+    width: 152px;
+    object-fit: cover;
+  }
+  
+  .home .ativo-5 {
+    top: 572px;
+    left: 282px;
+    position: absolute;
+    width: 150px;
+    height: 139px;
+    object-fit: cover;
+  }
+  
+  .home .ativo-6 {
+    top: 273px;
+    left: 1369px;
+    position: absolute;
+    width: 150px;
+    height: 139px;
+    object-fit: cover;
+  }
+  
+  .home .ativo-7 {
+    top: 58px;
+    left: 652px;
+    position: absolute;
+    width: 150px;
+    height: 139px;
+    object-fit: cover;
+  }
+  
+  .home .ativo-8 {
+    position: absolute;
+    width: 191px;
+    height: 187px;
+    top: 132px;
+    left: 942px;
+    object-fit: cover;
+  }
+  
+  .home .text-wrapper {
+    width: 99px;
+    top: 107px;
+    left: 671px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-2 {
+    position: absolute;
+    width: 96px;
+    top: 203px;
+    left: 985px;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-3 {
+    width: 92px;
+    top: 321px;
+    left: 1400px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-4 {
+    position: absolute;
+    width: 94px;
+    top: 138px;
+    left: 322px;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-5 {
+    position: absolute;
+    width: 117px;
+    top: 349px;
+    left: 14px;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-6 {
+    position: absolute;
+    width: 94px;
+    top: 622px;
+    left: 307px;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-7 {
+    width: 87px;
+    top: 661px;
+    left: 584px;
+    font-size: 18px;
+    position: absolute;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-8 {
+    width: 92px;
+    top: 652px;
+    left: 925px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-9 {
+    width: 93px;
+    top: 585px;
+    left: 1243px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-10 {
+    width: 124px;
+    top: 228px;
+    left: 24px;
+    position: absolute;
+    font-family: "Satoshi-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-11 {
+    position: absolute;
+    width: 187px;
+    top: 90px;
+    left: 958px;
+    font-family: "Satoshi-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-12 {
+    width: 186px;
+    top: 239px;
+    left: 1367px;
+    position: absolute;
+    font-family: "Satoshi-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-13 {
+    position: absolute;
+    width: 186px;
+    top: 0;
+    left: 648px;
+    font-family: "Satoshi-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .ellipse-wrapper {
+    position: absolute;
+    width: 397px;
+    height: 396px;
+    top: 252px;
+    left: 523px;
+    
+    background-size: 100% 100%;
+  }
+  
+  .home .ellipse {
+    position: relative;
+    width: 159px;
+    height: 143px;
+    top: 132px;
+    left: 124px;
+    background-color: #f9f9f9;
+    border-radius: 79.66px/71.7px;
+  }
+  
+  .home .text-wrapper-14 {
+    width: 122px;
+    top: 112px;
+    left: 320px;
+    position: absolute;
+    font-family: "Satoshi-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-15 {
+    top: 790px;
+    left: 1247px;
+    position: absolute;
+    width: 138px;
+    font-family: "Satoshi-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-16 {
+    width: 111px;
+    top: 833px;
+    left: 307px;
+    position: absolute;
+    font-family: "Satoshi-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .group-2 {
+    position: absolute;
+    width: 119px;
+    height: 125px;
+    top: 0;
+    left: 1539px;
+  }
+  
+  .home .text-wrapper-17 {
+    top: 867px;
+    left: 1092px;
+    position: absolute;
+    width: 138px;
+    font-family: "Satoshi-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .vector-wrapper {
+    position: absolute;
+    width: 101px;
+    height: 93px;
+    top: 880px;
+    left: 1583px;
+    
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .home .vector {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 21px;
+    left: 33px;
+  }
+  
+  .home .group-3 {
+    position: absolute;
+    width: 101px;
+    height: 93px;
+    top: 880px;
+    left: 134px;
+  }
+  
+  .home .img-wrapper {
+    position: absolute;
+    width: 101px;
+    height: 93px;
+    top: 880px;
+    left: 1691px;
+    
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .home .vector-2 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 20px;
+    left: 27px;
+  }
+  
+  .home .group-4 {
+    position: absolute;
+    width: 102px;
+    height: 93px;
+    top: 928px;
+    left: 78px;
+  }
+  
