@@ -7,12 +7,8 @@
             <img class="img" src="../../../assets/ativo-3.png" />
             <div class="superintend-ncia">SUPERINTENDÊNCIA CENTRO</div>
         </div>
-        <img class="group" src="img/group-42.png" />
-        <div class="vector-wrapper">
-            <video class="vector" loop>
-                <source src="../../../assets/seta_dir.mov" type="video/mp4">
-                Seu navegador não suporta vídeo em HTML5.
-            </video>
+        <img class="group" src="img/group-42.png" [routerLink]="['/menu']" />
+        <div class="vector-wrapper" [routerLink]="['/super-centro']">
             <img class="vector" src="img/vector.svg" />
         </div>
     </div>

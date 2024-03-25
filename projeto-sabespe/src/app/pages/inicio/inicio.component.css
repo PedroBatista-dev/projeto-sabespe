@@ -75,6 +75,7 @@
     position: absolute;
     height: 93px;
     top: 948px;
+    cursor: pointer;
   }
   
   .tela-de-descanso-x .vector-wrapper {
@@ -85,6 +86,7 @@
     position: absolute;
     height: 93px;
     top: 948px;
+    cursor: pointer;
   }
   
   .tela-de-descanso-x .vector {

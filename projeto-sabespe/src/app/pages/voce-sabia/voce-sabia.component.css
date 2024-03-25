@@ -71,11 +71,7 @@
     line-height: normal;
   }
   
-  .voc-sabia-polo-mooca .a-atual-identidade {
-    position: absolute;
-    width: 591px;
-    top: 537px;
-    left: 254px;
+  .voc-sabia-polo-mooca .a-atual-identidade {    
     font-family: "Satoshi-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -191,5 +187,14 @@
     height: 41px;
     top: 20px;
     left: 27px;
+  }
+
+  .paragrafo-com-scroll {
+    max-height: 200px; /* Defina a altura máxima desejada */
+    overflow-y: auto; /* Isso permite a rolagem vertical quando o conteúdo excede a altura máxima */
+    position: absolute;
+    width: 591px;
+    top: 537px;
+    left: 254px;
   }
   
