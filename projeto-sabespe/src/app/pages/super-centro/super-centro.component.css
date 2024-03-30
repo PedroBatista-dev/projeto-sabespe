@@ -173,8 +173,8 @@
   
   .tela .group {
     position: absolute;
-    width: 101px;
-    height: 93px;
+    width: 120px;
+    height: 120px;
     top: 928px;
     left: 1635px;
     background-size: cover;
@@ -184,18 +184,18 @@
   
   .tela .vector {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 21px;
-    left: 33px;
+    width: 300px;
+    height: 300px;
+    top: -100px;
+    left: -80px;
   }
   
   .tela .img {
     position: absolute;
-    width: 101px;
-    height: 93px;
-    top: 928px;
-    left: 186px;
+    width: 300px;
+    height: 300px;
+    top: 828px;
+    left: 116px;
   }
   
   .tela .group-2 {
@@ -217,17 +217,16 @@
   
   .tela .group-3 {
     position: absolute;
-    width: 102px;
-    height: 93px;
-    top: 928px;
-    left: 78px;
+    width: 300px;
+    height: 300px;
+    top: 828px;
     cursor: pointer;
   }
   
   .tela .vector-wrapper {
     position: absolute;
-    width: 101px;
-    height: 93px;
+    width: 120px;
+    height: 120px;
     top: 928px;
     left: 1743px;
     background-size: cover;
@@ -236,9 +235,9 @@
   
   .tela .vector-2 {
     position: absolute;
-    width: 41px;
-    height: 41px;
-    top: 20px;
-    left: 27px;
+    width: 300px;
+    height: 300px;
+    top: -100px;
+    left: -80px;
   }
   
