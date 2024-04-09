@@ -1,0 +1,112 @@
+.overlap-wrapper {
+  background-color: #f9f9f9;
+  width: 1920px;
+  height: 1080px;
+}
+
+.ativo {
+  position: absolute;
+  width: 814px;
+  height: 897px;
+  top: 0;
+  left: 1106px;
+  object-fit: cover;
+}
+
+.indicadores {
+  position: absolute;
+  top: 256px;
+  left: 154px;
+  mix-blend-mode: multiply;
+  font-family: "Satoshi-Black", Helvetica;
+  font-weight: 900;
+  color: rgba(18, 208, 255, 1);
+  font-size: 110px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.metas-contratuais {
+  position: absolute;
+  top: 340px;
+  left: 155px;
+  mix-blend-mode: multiply;
+  font-family: "Satoshi-Black", Helvetica;
+  font-weight: 900;
+  color: rgba(255, 198, 1, 1);
+  font-size: 71px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.november {
+  position: absolute;
+  width: 998px;
+  height: 1000px;
+  top: 21px;
+  left: 813px;
+  object-fit: cover;
+}
+
+.vector {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 1600px;
+}
+
+.img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 1750px;
+}
+
+.slice {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 371px;
+  left: 371px;
+}
+
+.group-2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 116px;
+}
+
+.group-3 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+}
+
+.frame {
+  width: 201px;
+  left: 155px;
+  position: absolute;
+  height: 59px;
+  top: 468px;
+}
+
+.frame-2 {
+  width: 212px;
+  left: 384px;
+  position: absolute;
+  height: 59px;
+  top: 468px;
+}
+
+.frame-3 {
+  width: 131px;
+  left: 624px;
+  position: absolute;
+  height: 59px;
+  top: 468px;
+}

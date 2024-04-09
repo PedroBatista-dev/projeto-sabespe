@@ -24,6 +24,8 @@ import { PerfilPoloIpirangaComponent } from './pages/perfil-polo-ipiranga/perfil
 import { PerfilPoloMoocaComponent } from './pages/perfil-polo-mooca/perfil-polo-mooca.component';
 import { PerfilPoloMateusComponent } from './pages/perfil-polo-mateus/perfil-polo-mateus.component';
 import { PerfilPoloTamanduateiComponent } from './pages/perfil-polo-tamanduatei/perfil-polo-tamanduatei.component';
+import { IndicadoresContratuaisComponent } from './pages/indicadores-contraturais/indicadores-contraturais.component';
+import { IndicadoresProcessoComponent } from './pages/indicadores-processo/indicadores-processo.component';
 
 const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
@@ -50,6 +52,8 @@ const routes: Routes = [
   { path: 'voce-sabia-parquinho', component: VoceSabiaParquinhoComponent },
   { path: 'voce-sabia-paulista', component: VoceSabiaPaulistaComponent },
   { path: 'voce-sabia-vila', component: VoceSabiaVilaComponent },
+  { path: 'indicadores-contratuais', component: IndicadoresContratuaisComponent },
+  { path: 'indicadores-processo', component: IndicadoresProcessoComponent },
   { path: '', redirectTo: '/inicio', pathMatch: 'full' },
 ];
 

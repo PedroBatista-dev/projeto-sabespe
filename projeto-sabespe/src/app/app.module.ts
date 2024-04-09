@@ -29,6 +29,8 @@ import { PerfilPoloIpirangaComponent } from './pages/perfil-polo-ipiranga/perfil
 import { PerfilPoloMoocaComponent } from './pages/perfil-polo-mooca/perfil-polo-mooca.component';
 import { PerfilPoloMateusComponent } from './pages/perfil-polo-mateus/perfil-polo-mateus.component';
 import { PerfilPoloTamanduateiComponent } from './pages/perfil-polo-tamanduatei/perfil-polo-tamanduatei.component';
+import { IndicadoresContratuaisComponent } from './pages/indicadores-contraturais/indicadores-contraturais.component';
+import { IndicadoresProcessoComponent } from './pages/indicadores-processo/indicadores-processo.component';
 
 
 @NgModule({
@@ -58,6 +60,8 @@ import { PerfilPoloTamanduateiComponent } from './pages/perfil-polo-tamanduatei/
     VoceSabiaParquinhoComponent,
     VoceSabiaIndustrialComponent,
     VoceSabiaVilaComponent,
+    IndicadoresContratuaisComponent,
+    IndicadoresProcessoComponent
   ],
   imports: [
     BrowserModule,

@@ -15,10 +15,9 @@
 
 .image {
   position: absolute;
-  width: 614px;
   height: 894px;
   top: 0;
-  left: 0;
+  left: -300px;
   mix-blend-mode: multiply;
   object-fit: cover;
 }
