@@ -10,13 +10,13 @@
     <img class="vector-2" src="assets/linha-superior-meio.png" />
     <div class="overlap">
       <img class="vector-3" src="assets/linha-superior.png" />
-      <div class="perfil-OC-wrapper"><div class="text-wrapper">Perfil Oc</div></div>
+      <div class="perfil-OC-wrapper" [routerLink]="['/super-centro']"><div class="text-wrapper">Perfil Oc</div></div>
     </div>
-    <div class="frame-2"><div class="text-wrapper">Perfil Polos</div></div>
+    <div class="frame-2" [routerLink]="['/mapa']"><div class="text-wrapper">Perfil Polos</div></div>
   </div>
-  <img class="vector-4" src="assets/gif/ICONES_seta-dir.gif" />
-  <img class="group-2" src="assets/gif/ICONES_X.gif" />
+  <img class="vector-4" src="assets/gif/ICONES_seta-dir.gif" [routerLink]="['/perfil-centro']" />
+  <img class="group-2" src="assets/gif/ICONES_X.gif" [routerLink]="['/inicio']" />
   <img class="vector-5" src="assets/gif/ICONES_seta-esq.gif" />
-  <img class="group-3" src="assets/gif/ICONES_casa.gif" />
+  <img class="group-3" src="assets/gif/ICONES_casa.gif" [routerLink]="['/menu']" />
 </div>
 

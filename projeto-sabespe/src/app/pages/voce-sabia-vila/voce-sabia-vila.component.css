@@ -137,17 +137,6 @@
     top: 920px;
   }
   
-  .img-wrapper {
-    position: absolute;
-    width: 101px;
-    height: 93px;
-    top: 928px;
-    left: 1743px;
-    
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-  
   .vector-2 {
     position: absolute;
     width: 150px;

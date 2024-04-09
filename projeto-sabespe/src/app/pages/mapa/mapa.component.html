@@ -6,15 +6,15 @@
     <img class="line-3" src="assets/linha-rosa.png" />
     <img class="line-4" src="assets/linha-verde.png" />
     <img class="mask-group" src="assets/mapa.png" />
-    <div class="frame"><div class="text-wrapper">Polo Jardins</div></div>
-    <div class="polo-tamanduate-wrapper"><div class="text-wrapper-2">Polo Tamanduateí</div></div>
-    <div class="div-wrapper"><div class="text-wrapper-2">Polo São Mateus</div></div>
-    <div class="frame-2"><div class="text-wrapper-2">Polo Mooca</div></div>
-    <div class="frame-3"><div class="text-wrapper-3">Polo Ipiranga</div></div>
+    <div class="frame" [routerLink]="['/perfil-polo-jardins']"><div class="text-wrapper">Polo Jardins</div></div>
+    <div class="polo-tamanduate-wrapper" [routerLink]="['/perfil-polo-tamanduatei']"><div class="text-wrapper-2">Polo Tamanduateí</div></div>
+    <div class="div-wrapper" [routerLink]="['/perfil-polo-mateus']"><div class="text-wrapper-2">Polo São Mateus</div></div>
+    <div class="frame-2" [routerLink]="['/perfil-polo-mooca']"><div class="text-wrapper-2">Polo Mooca</div></div>
+    <div class="frame-3" [routerLink]="['/perfil-polo-ipiranga']"><div class="text-wrapper-3">Polo Ipiranga</div></div>
   </div>
-  <img class="vector" src="assets/gif/ICONES_seta-esq.gif" />
-  <img class="group-2" src="assets/gif/ICONES_X.gif" />
+  <img class="vector" src="assets/gif/ICONES_seta-esq.gif" [routerLink]="['/mapa']" />
+  <img class="group-2" src="assets/gif/ICONES_X.gif" [routerLink]="['/inicio']" />
   <img class="frame-4" src="assets/linha-colorida.png" />
-  <img class="group-3" src="assets/gif/ICONES_casa.gif" />
-  <img class="vector-2" src="assets/gif/ICONES_seta-dir.gif" />
+  <img class="group-3" src="assets/gif/ICONES_casa.gif" [routerLink]="['/menu']" />
+  <img class="vector-2" src="assets/gif/ICONES_seta-dir.gif" [routerLink]="['/perfil-polo-jardins']" />
 </div>
