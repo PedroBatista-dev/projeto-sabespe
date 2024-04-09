@@ -1,19 +1,12 @@
-.voc-sabia-polo-mooca {
-    background-color: #f9f9f9;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
   
-  .voc-sabia-polo-mooca .div {
+  .div {
     background-color: #f9f9f9;
     width: 1920px;
     height: 1080px;
     position: relative;
   }
   
-  .voc-sabia-polo-mooca .overlap {
+  .overlap {
     position: absolute;
     width: 1844px;
     height: 889px;
@@ -21,33 +14,19 @@
     left: 0;
   }
   
-  .voc-sabia-polo-mooca .overlap-group {
+  .overlap-group {
     position: absolute;
     width: 845px;
     height: 829px;
     top: 0;
     left: 0;
-  }
+  }  
   
-  .voc-sabia-polo-mooca .group {
-    position: absolute;
-    width: 439px;
-    height: 248px;
-    top: 290px;
-    left: 254px;
-  }
-  
-  .voc-sabia-polo-mooca .overlap-group-2 {
-    position: relative;
-    width: 435px;
-    height: 248px;
-  }
-  
-  .voc-sabia-polo-mooca .voc {
+  .voc {
     position: absolute;
     width: 352px;
-    top: 0;
-    left: 0;
+    top: 290px;
+    left: 254px;
     mix-blend-mode: multiply;
     font-family: "Satoshi-Black", Helvetica;
     font-weight: 900;
@@ -57,11 +36,11 @@
     line-height: normal;
   }
   
-  .voc-sabia-polo-mooca .sabia {
+  .sabia {
     position: absolute;
     width: 435px;
-    top: 83px;
-    left: 0;
+    top: 373px;
+    left: 254px;
     mix-blend-mode: multiply;
     font-family: "Satoshi-Black", Helvetica;
     font-weight: 900;
@@ -71,7 +50,7 @@
     line-height: normal;
   }
   
-  .voc-sabia-polo-mooca .a-atual-identidade {    
+  .a-atual-identidade {    
     font-family: "Satoshi-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -80,7 +59,7 @@
     line-height: normal;
   }
   
-  .voc-sabia-polo-mooca .ativo {
+  .ativo {
     position: absolute;
     width: 325px;
     height: 416px;
@@ -89,7 +68,7 @@
     object-fit: cover;
   }
   
-  .voc-sabia-polo-mooca .overlap-2 {
+  .overlap-2 {
     position: absolute;
     width: 1032px;
     height: 889px;
@@ -97,7 +76,7 @@
     left: 812px;
   }
   
-  .voc-sabia-polo-mooca .mask-group {
+  .mask-group {
     position: absolute;
     width: 654px;
     height: 889px;
@@ -105,7 +84,7 @@
     left: 378px;
   }
   
-  .voc-sabia-polo-mooca .img {
+  .img {
     position: absolute;
     width: 378px;
     height: 375px;
@@ -113,7 +92,7 @@
     left: 0;
   }
   
-  .voc-sabia-polo-mooca .rectangle-wrapper {
+  .rectangle-wrapper {
     position: absolute;
     width: 18px;
     height: 307px;
@@ -122,39 +101,28 @@
     background-color: #ececec;
   }
   
-  .voc-sabia-polo-mooca .rectangle {
+  .rectangle {
     height: 104px;
     background-color: #d9d9d9;
   }
   
-  .voc-sabia-polo-mooca .vector-wrapper {
+  .vector {
     position: absolute;
-    width: 101px;
-    height: 93px;
-    top: 928px;
-    left: 1635px;
-    
-    background-size: cover;
-    background-position: 50% 50%;
+    width: 150px;
+    height: 150px;
+    top: 920px;
+    left: 1600px;
   }
   
-  .voc-sabia-polo-mooca .vector {
+  .group-2 {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 21px;
-    left: 33px;
+    width: 150px;
+    height: 150px;
+    top: 920px;
+    left: 116px;
   }
   
-  .voc-sabia-polo-mooca .group-2 {
-    position: absolute;
-    width: 101px;
-    height: 93px;
-    top: 928px;
-    left: 186px;
-  }
-  
-  .voc-sabia-polo-mooca .frame {
+  .frame {
     position: absolute;
     width: 1920px;
     height: 18px;
@@ -162,15 +130,14 @@
     left: 0;
   }
   
-  .voc-sabia-polo-mooca .group-3 {
+  .group-3 {
     position: absolute;
-    width: 102px;
-    height: 93px;
-    top: 928px;
-    left: 78px;
+    width: 150px;
+    height: 150px;
+    top: 920px;
   }
   
-  .voc-sabia-polo-mooca .img-wrapper {
+  .img-wrapper {
     position: absolute;
     width: 101px;
     height: 93px;
@@ -181,16 +148,16 @@
     background-position: 50% 50%;
   }
   
-  .voc-sabia-polo-mooca .vector-2 {
+  .vector-2 {
     position: absolute;
-    width: 41px;
-    height: 41px;
-    top: 20px;
-    left: 27px;
+    width: 150px;
+    height: 150px;
+    top: 920px;
+    left: 1750px;
   }
 
   .paragrafo-com-scroll {
-    max-height: 200px; /* Defina a altura máxima desejada */
+    max-height: 300px; /* Defina a altura máxima desejada */
     overflow-y: auto; /* Isso permite a rolagem vertical quando o conteúdo excede a altura máxima */
     position: absolute;
     width: 591px;

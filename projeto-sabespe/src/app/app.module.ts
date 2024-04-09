@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,6 +24,8 @@ import { VoceSabiaOrigemComponent } from './pages/voce-sabia-origem/voce-sabia-o
 import { VoceSabiaParquinhoComponent } from './pages/voce-sabia-parquinho/voce-sabia-parquinho.component';
 import { VoceSabiaIndustrialComponent } from './pages/voce-sabia-industrial/voce-sabia-industrial.component';
 import { VoceSabiaVilaComponent } from './pages/voce-sabia-vila/voce-sabia-vila.component';
+import { PerfilPoloJardinsComponent } from './pages/perfil-polo-jardins/perfil-polo-jardins.component';
+
 
 @NgModule({
   declarations: [
@@ -32,6 +35,7 @@ import { VoceSabiaVilaComponent } from './pages/voce-sabia-vila/voce-sabia-vila.
     MapaComponent,
     MenuComponent,
     PerfilCentroComponent,
+    PerfilPoloJardinsComponent,
     VoceSabiaComponent,
     VoceSabia25MarcoComponent,
     VoceSabiaCatedralComponent,
@@ -50,7 +54,8 @@ import { VoceSabiaVilaComponent } from './pages/voce-sabia-vila/voce-sabia-vila.
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

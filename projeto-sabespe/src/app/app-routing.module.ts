@@ -19,6 +19,7 @@ import { VoceSabiaOrigemComponent } from './pages/voce-sabia-origem/voce-sabia-o
 import { VoceSabiaParquinhoComponent } from './pages/voce-sabia-parquinho/voce-sabia-parquinho.component';
 import { VoceSabiaPaulistaComponent } from './pages/voce-sabia-paulista/voce-sabia-paulista.component';
 import { VoceSabiaVilaComponent } from './pages/voce-sabia-vila/voce-sabia-vila.component';
+import { PerfilPoloJardinsComponent } from './pages/perfil-polo-jardins/perfil-polo-jardins.component';
 
 const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'mapa', component: MapaComponent },
   { path: 'menu', component: MenuComponent },
   { path: 'perfil-centro', component: PerfilCentroComponent },
+  { path: 'perfil-polo-jardins', component: PerfilPoloJardinsComponent },
   { path: 'voce-sabia', component: VoceSabiaComponent },
   { path: 'voce-sabia-25-marco', component: VoceSabia25MarcoComponent },
   { path: 'voce-sabia-allianz', component: VoceSabiaAllianzComponent },

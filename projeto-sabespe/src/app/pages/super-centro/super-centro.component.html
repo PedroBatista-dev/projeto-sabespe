@@ -1,34 +1,30 @@
-<div class="tela">
-    <div class="div">
-      <div class="overlap-group">
-        <div class="superintend-ncia">SUPERINTENDÊNCIA</div>
-        <div class="centro">CENTRO</div>
-      </div>
-      <div class="overlap">
-        <div class="overlap-2">
-          <p class="compreende-os-munic">
-            <span class="text-wrapper">Compreende os municípios de </span>
-            <span class="span">São Paulo, Mauá e Santo André</span>
-            <span class="text-wrapper"> atendidos por 5 polos de manutenção.<br /><br /></span>
-            <span class="span">Área Total:  </span>
-            <span class="text-wrapper">519km²<br /></span>
-            <span class="span">População Atendida:</span>
-            <span class="text-wrapper"> 4,5 mi<br /></span>
-            <span class="span">População Flutuante:</span>
-            <span class="text-wrapper"> 1,5 mi<br /></span>
-          </p>
-          <img class="mask-group" src="../../../assets/mapa.png" />
-        </div>
-        <div class="div-wrapper"><div class="text-wrapper-2">98,50%</div></div>
-        <div class="overlap-3"><div class="text-wrapper-3">97,80%</div></div>
-        <div class="overlap-4"><div class="text-wrapper-4">88,50%</div></div>
-      </div>
-      <div class="group" [routerLink]="['/inicio']"><img class="vector" src="../../../assets/gif/ICONES_seta-esq.gif" /></div>
-      <img class="img" src="../../../assets/gif/ICONES_X.gif" [routerLink]="['/inicio']" />
-      <img class="group-2" src="../../../assets/vc-sabia.png" [routerLink]="['/voce-sabia']" />
-      <img class="frame" src="../../../assets/linha-colorida.png" />
-      <img class="group-3" src="../../../assets/gif/ICONES_casa.gif" [routerLink]="['/menu']" />
-      <div class="vector-wrapper"  [routerLink]="['/menu']"><img class="vector-2" src="../../../assets/gif/ICONES_seta-dir.gif" /></div>
+<div class="div">
+  <div class="superintendencia">SUPERINTENDÊNCIA</div>
+  <div class="centro">CENTRO</div>
+  <div class="overlap">
+    <div class="overlap-2">
+      <p class="compreende-os-munic">
+        <span class="text-wrapper">Compreende os municípios de </span>
+        <span class="span">São Paulo, Mauá e Santo André</span>
+        <span class="text-wrapper"> atendidos por 5 polos de manutenção.<br /><br /></span>
+        <span class="span">{{ excelData[1]["Nome Unidade:"] }}  </span>
+        <span class="text-wrapper"> {{ excelData[1]["Superintendência Centro"] }}<br /></span>
+        <span class="span">{{ excelData[2]["Nome Unidade:"] }}</span>
+        <span class="text-wrapper"> {{ excelData[2]["Superintendência Centro"] }}<br /></span>
+        <span class="span">{{ excelData[3]["Nome Unidade:"] }}</span>
+        <span class="text-wrapper"> {{ excelData[3]["Superintendência Centro"] }}<br /></span>
+      </p>
+      <img class="mask-group" src="assets/mapa.png" />
     </div>
+    <div class="div-wrapper"><div class="text-wrapper-2">{{ atendimentoAgua }}%</div></div>
+    <div class="overlap-3"><div class="text-wrapper-3">{{ atendimentoEsgoto }}%</div></div>
+    <div class="overlap-4"><div class="text-wrapper-4">{{ tratamentoEsgoto }}%</div></div>
+  </div>
+  <img class="vector" src="assets/gif/ICONES_seta-esq.gif" [routerLink]="['/inicio']" />
+  <img class="img" src="assets/gif/ICONES_X.gif" [routerLink]="['/inicio']" />
+  <img class="group-2" src="assets/vc-sabia.png" [routerLink]="['/voce-sabia']" />
+  <img class="frame" src="assets/linha-colorida.png" />
+  <img class="group-3" src="assets/gif/ICONES_casa.gif" [routerLink]="['/menu']" />
+  <img class="vector-2" src="assets/gif/ICONES_seta-dir.gif" [routerLink]="['/menu']" />
 </div>
 

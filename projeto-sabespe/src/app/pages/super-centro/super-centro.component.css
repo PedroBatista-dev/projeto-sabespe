@@ -1,31 +1,16 @@
-.tela {
-    background-color: #f9f9f9;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .tela .div {
+ 
+  .div {
     background-color: #f9f9f9;
     width: 1920px;
     height: 1080px;
     position: relative;
   }
   
-  .tela .overlap-group {
+  .superintendencia {
     position: absolute;
     width: 1010px;
-    height: 189px;
     top: 56px;
     left: 78px;
-  }
-  
-  .tela .superintend-ncia {
-    position: absolute;
-    width: 1010px;
-    top: 0;
-    left: 0;
     mix-blend-mode: multiply;
     font-family: "Satoshi-Black", Helvetica;
     font-weight: 900;
@@ -35,11 +20,11 @@
     line-height: normal;
   }
   
-  .tela .centro {
+  .centro {
     position: absolute;
     width: 1010px;
-    top: 60px;
-    left: 0;
+    top: 116px;
+    left: 78px;
     mix-blend-mode: multiply;
     font-family: "Satoshi-Black", Helvetica;
     font-weight: 900;
@@ -49,7 +34,7 @@
     line-height: normal;
   }
   
-  .tela .overlap {
+  .overlap {
     position: absolute;
     width: 1808px;
     height: 568px;
@@ -57,7 +42,7 @@
     left: 95px;
   }
   
-  .tela .overlap-2 {
+  .overlap-2 {
     position: absolute;
     width: 1808px;
     height: 568px;
@@ -65,7 +50,7 @@
     left: 0;
   }
   
-  .tela .compreende-os-munic {
+  .compreende-os-munic {
     position: absolute;
     width: 916px;
     top: 0;
@@ -78,7 +63,7 @@
     line-height: normal;
   }
   
-  .tela .text-wrapper {
+  .text-wrapper {
     font-family: "Satoshi-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -86,12 +71,12 @@
     letter-spacing: 0;
   }
   
-  .tela .span {
+  .span {
     font-family: "Satoshi-Bold", Helvetica;
     font-weight: 700;
   }
   
-  .tela .mask-group {
+  .mask-group {
     position: absolute;
     width: 943px;
     height: 531px;
@@ -99,7 +84,7 @@
     left: 865px;
   }
   
-  .tela .div-wrapper {
+  .div-wrapper {
     position: absolute;
     width: 210px;
     height: 278px;
@@ -109,7 +94,7 @@
     background-image: url(../../../assets/group-39.png);
   }
   
-  .tela .text-wrapper-2 {
+  .text-wrapper-2 {
     position: absolute;
     width: 141px;
     top: 129px;
@@ -123,7 +108,7 @@
     line-height: normal;
   }
   
-  .tela .overlap-3 {
+  .overlap-3 {
     position: absolute;
     width: 210px;
     height: 278px;
@@ -133,7 +118,7 @@
     background-image: url(../../../assets/group-40.png);
   }
   
-  .tela .text-wrapper-3 {
+  .text-wrapper-3 {
     width: 136px;
     left: 38px;
     position: absolute;
@@ -147,7 +132,7 @@
     line-height: normal;
   }
   
-  .tela .overlap-4 {
+  .overlap-4 {
     position: absolute;
     width: 210px;
     height: 273px;
@@ -157,7 +142,7 @@
     background-image: url(../../../assets/group-38.png);
   }
   
-  .tela .text-wrapper-4 {
+  .text-wrapper-4 {
     width: 143px;
     left: 42px;
     position: absolute;
@@ -171,34 +156,23 @@
     line-height: normal;
   }
   
-  .tela .group {
+  .vector {
     position: absolute;
-    width: 120px;
-    height: 120px;
-    top: 928px;
-    left: 1635px;
-    background-size: cover;
-    background-position: 50% 50%;
-    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    top: 920px;
+    left: 1600px;
   }
   
-  .tela .vector {
+  .img {
     position: absolute;
-    width: 300px;
-    height: 300px;
-    top: -100px;
-    left: -80px;
-  }
-  
-  .tela .img {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    top: 828px;
+    width: 150px;
+    height: 150px;
+    top: 920px;
     left: 116px;
   }
   
-  .tela .group-2 {
+  .group-2 {
     position: absolute;
     width: 119px;
     height: 125px;
@@ -207,7 +181,7 @@
     cursor: pointer;
   }
   
-  .tela .frame {
+  .frame {
     position: absolute;
     width: 1920px;
     height: 18px;
@@ -215,29 +189,19 @@
     left: 0;
   }
   
-  .tela .group-3 {
+  .group-3 {
     position: absolute;
-    width: 300px;
-    height: 300px;
-    top: 828px;
+    width: 150px;
+    height: 150px;
+    top: 920px;
     cursor: pointer;
   }
   
-  .tela .vector-wrapper {
+  .vector-2 {
     position: absolute;
-    width: 120px;
-    height: 120px;
-    top: 928px;
-    left: 1743px;
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-  
-  .tela .vector-2 {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    top: -100px;
-    left: -80px;
+    width: 150px;
+    height: 150px;
+    top: 920px;
+    left: 1750px;
   }
   
