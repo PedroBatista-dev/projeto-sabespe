@@ -25,6 +25,10 @@ import { VoceSabiaParquinhoComponent } from './pages/voce-sabia-parquinho/voce-s
 import { VoceSabiaIndustrialComponent } from './pages/voce-sabia-industrial/voce-sabia-industrial.component';
 import { VoceSabiaVilaComponent } from './pages/voce-sabia-vila/voce-sabia-vila.component';
 import { PerfilPoloJardinsComponent } from './pages/perfil-polo-jardins/perfil-polo-jardins.component';
+import { PerfilPoloIpirangaComponent } from './pages/perfil-polo-ipiranga/perfil-polo-ipiranga.component';
+import { PerfilPoloMoocaComponent } from './pages/perfil-polo-mooca/perfil-polo-mooca.component';
+import { PerfilPoloMateusComponent } from './pages/perfil-polo-mateus/perfil-polo-mateus.component';
+import { PerfilPoloTamanduateiComponent } from './pages/perfil-polo-tamanduatei/perfil-polo-tamanduatei.component';
 
 
 @NgModule({
@@ -36,6 +40,10 @@ import { PerfilPoloJardinsComponent } from './pages/perfil-polo-jardins/perfil-p
     MenuComponent,
     PerfilCentroComponent,
     PerfilPoloJardinsComponent,
+    PerfilPoloIpirangaComponent,
+    PerfilPoloMoocaComponent,
+    PerfilPoloMateusComponent,
+    PerfilPoloTamanduateiComponent,
     VoceSabiaComponent,
     VoceSabia25MarcoComponent,
     VoceSabiaCatedralComponent,

@@ -20,6 +20,10 @@ import { VoceSabiaParquinhoComponent } from './pages/voce-sabia-parquinho/voce-s
 import { VoceSabiaPaulistaComponent } from './pages/voce-sabia-paulista/voce-sabia-paulista.component';
 import { VoceSabiaVilaComponent } from './pages/voce-sabia-vila/voce-sabia-vila.component';
 import { PerfilPoloJardinsComponent } from './pages/perfil-polo-jardins/perfil-polo-jardins.component';
+import { PerfilPoloIpirangaComponent } from './pages/perfil-polo-ipiranga/perfil-polo-ipiranga.component';
+import { PerfilPoloMoocaComponent } from './pages/perfil-polo-mooca/perfil-polo-mooca.component';
+import { PerfilPoloMateusComponent } from './pages/perfil-polo-mateus/perfil-polo-mateus.component';
+import { PerfilPoloTamanduateiComponent } from './pages/perfil-polo-tamanduatei/perfil-polo-tamanduatei.component';
 
 const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
@@ -28,6 +32,10 @@ const routes: Routes = [
   { path: 'menu', component: MenuComponent },
   { path: 'perfil-centro', component: PerfilCentroComponent },
   { path: 'perfil-polo-jardins', component: PerfilPoloJardinsComponent },
+  { path: 'perfil-polo-ipiranga', component: PerfilPoloIpirangaComponent },
+  { path: 'perfil-polo-mooca', component: PerfilPoloMoocaComponent },
+  { path: 'perfil-polo-mateus', component: PerfilPoloMateusComponent },
+  { path: 'perfil-polo-tamanduatei', component: PerfilPoloTamanduateiComponent },
   { path: 'voce-sabia', component: VoceSabiaComponent },
   { path: 'voce-sabia-25-marco', component: VoceSabia25MarcoComponent },
   { path: 'voce-sabia-allianz', component: VoceSabiaAllianzComponent },
