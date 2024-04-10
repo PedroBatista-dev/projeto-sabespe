@@ -31,6 +31,8 @@ import { PerfilPoloMateusComponent } from './pages/perfil-polo-mateus/perfil-pol
 import { PerfilPoloTamanduateiComponent } from './pages/perfil-polo-tamanduatei/perfil-polo-tamanduatei.component';
 import { IndicadoresContratuaisComponent } from './pages/indicadores-contraturais/indicadores-contraturais.component';
 import { IndicadoresProcessoComponent } from './pages/indicadores-processo/indicadores-processo.component';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { MetasSPComponent } from './pages/metas-sp/metas-sp.component';
 
 
 @NgModule({
@@ -61,13 +63,15 @@ import { IndicadoresProcessoComponent } from './pages/indicadores-processo/indic
     VoceSabiaIndustrialComponent,
     VoceSabiaVilaComponent,
     IndicadoresContratuaisComponent,
-    IndicadoresProcessoComponent
+    IndicadoresProcessoComponent,    
+    MetasSPComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxChartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

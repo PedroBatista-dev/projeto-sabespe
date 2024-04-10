@@ -26,6 +26,7 @@ import { PerfilPoloMateusComponent } from './pages/perfil-polo-mateus/perfil-pol
 import { PerfilPoloTamanduateiComponent } from './pages/perfil-polo-tamanduatei/perfil-polo-tamanduatei.component';
 import { IndicadoresContratuaisComponent } from './pages/indicadores-contraturais/indicadores-contraturais.component';
 import { IndicadoresProcessoComponent } from './pages/indicadores-processo/indicadores-processo.component';
+import { MetasSPComponent } from './pages/metas-sp/metas-sp.component';
 
 const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
@@ -54,6 +55,7 @@ const routes: Routes = [
   { path: 'voce-sabia-vila', component: VoceSabiaVilaComponent },
   { path: 'indicadores-contratuais', component: IndicadoresContratuaisComponent },
   { path: 'indicadores-processo', component: IndicadoresProcessoComponent },
+  { path: 'metas-sp', component: MetasSPComponent },
   { path: '', redirectTo: '/inicio', pathMatch: 'full' },
 ];
 
