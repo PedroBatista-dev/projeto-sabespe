@@ -3,11 +3,11 @@ import { Component } from '@angular/core';
 import * as XLSX from 'xlsx';
 
 @Component({
-  selector: 'app-metas-sp',
-  templateUrl: './metas-sp.component.html',
-  styleUrls: ['./metas-sp.component.css']
+  selector: 'app-metas-sa',
+  templateUrl: './metas-sa.component.html',
+  styleUrls: ['./metas-sa.component.css']
 })
-export class MetasSPComponent {
+export class MetasSAComponent {
 
   excelData = [];
 
@@ -29,7 +29,7 @@ export class MetasSPComponent {
     this.http.get('assets/sabespe.xlsm', { responseType: 'arraybuffer' })
       .subscribe((data: ArrayBuffer) => {
         const workbook = XLSX.read(data, { type: 'array' });
-        const sheetName = workbook.SheetNames[8];
+        const sheetName = workbook.SheetNames[9];
         const worksheet = workbook.Sheets[sheetName];
         this.excelData = XLSX.utils.sheet_to_json(worksheet, { raw: true });
         
@@ -46,7 +46,7 @@ export class MetasSPComponent {
           },
         ];
 
-        this.indAtendAgua = [
+        this.indPerdReais = [
           {
             name: "Previsto",
             value: parseFloat(this.excelData[4]["__EMPTY"])
@@ -57,7 +57,7 @@ export class MetasSPComponent {
           },
         ];
 
-        this.indPerdReais = [
+        this.indCobEsgoto = [
           {
             name: "Previsto",
             value: parseFloat(this.excelData[5]["__EMPTY"])
@@ -68,7 +68,7 @@ export class MetasSPComponent {
           },
         ];
 
-        this.indCobEsgoto = [
+        this.indEcoColetadas = [
           {
             name: "Previsto",
             value: parseFloat(this.excelData[6]["__EMPTY"])
@@ -76,28 +76,6 @@ export class MetasSPComponent {
           {
             name: "Realizado",
             value: parseFloat(this.excelData[6]["__EMPTY_1"])
-          },
-        ];
-
-        this.indAtendEsgoto = [
-          {
-            name: "Previsto",
-            value: parseFloat(this.excelData[7]["__EMPTY"])
-          },
-          {
-            name: "Realizado",
-            value: parseFloat(this.excelData[7]["__EMPTY_1"])
-          },
-        ];
-
-        this.indEcoColetadas = [
-          {
-            name: "Previsto",
-            value: parseFloat(this.excelData[8]["__EMPTY"])
-          },
-          {
-            name: "Realizado",
-            value: parseFloat(this.excelData[8]["__EMPTY_1"])
           },
         ];
         console.log(this.indCobAgua)

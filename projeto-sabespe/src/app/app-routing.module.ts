@@ -27,6 +27,11 @@ import { PerfilPoloTamanduateiComponent } from './pages/perfil-polo-tamanduatei/
 import { IndicadoresContratuaisComponent } from './pages/indicadores-contraturais/indicadores-contraturais.component';
 import { IndicadoresProcessoComponent } from './pages/indicadores-processo/indicadores-processo.component';
 import { MetasSPComponent } from './pages/metas-sp/metas-sp.component';
+import { CapaSPComponent } from './pages/capa-sp/capa-sp.component';
+import { CapaSAComponent } from './pages/capa-sa/capa-sa.component';
+import { CapaMauaComponent } from './pages/capa-maua/capa-maua.component';
+import { MetasSAComponent } from './pages/metas-sa/metas-sa.component';
+import { MetasMauaComponent } from './pages/metas-maua/metas-maua.component';
 
 const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
@@ -55,7 +60,12 @@ const routes: Routes = [
   { path: 'voce-sabia-vila', component: VoceSabiaVilaComponent },
   { path: 'indicadores-contratuais', component: IndicadoresContratuaisComponent },
   { path: 'indicadores-processo', component: IndicadoresProcessoComponent },
+  { path: 'capa-sp', component: CapaSPComponent },
+  { path: 'capa-sa', component: CapaSAComponent },
+  { path: 'capa-maua', component: CapaMauaComponent },
   { path: 'metas-sp', component: MetasSPComponent },
+  { path: 'metas-sa', component: MetasSAComponent },
+  { path: 'metas-maua', component: MetasMauaComponent },
   { path: '', redirectTo: '/inicio', pathMatch: 'full' },
 ];
 

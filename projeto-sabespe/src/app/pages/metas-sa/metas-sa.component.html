@@ -1,7 +1,7 @@
 <div class="div">
   <div class="overlap-group">
     <div class="metas-contratuais">METAS CONTRATUAIS</div>
-    <div class="s-o-paulo">SÃO PAULO</div>
+    <div class="s-o-paulo">SANTO ANDRÉ</div>
   </div>
   <p class="popula-o-a">
     População A: {{ excelData[0]["População A: "] }}<br />
@@ -20,19 +20,6 @@
       [showGridLines]="false"
       [roundEdges]="false"
       [xAxisLabel]="'Índice de Cobertura de Água - ICA'"
-      [showXAxisLabel]="true">
-    </ngx-charts-bar-vertical>
-  </div>  
-  <div class="line-2" style="display: block;">
-    <ngx-charts-bar-vertical
-      [view]="[250,500]"
-      [results]="indAtendAgua"
-      [showDataLabel]="true"
-      [xAxis]="true"
-      [customColors]="customColors"
-      [showGridLines]="false"
-      [roundEdges]="false"
-      [xAxisLabel]="'Índice de Atendimento de Água - IAA'"
       [showXAxisLabel]="true">
     </ngx-charts-bar-vertical>
   </div>  
@@ -61,20 +48,7 @@
       [xAxisLabel]="'Índice de Cobertura de Esgoto - IAE'"
       [showXAxisLabel]="true">
     </ngx-charts-bar-vertical>
-  </div>  
-  <div class="line-5" style="display: block;">
-    <ngx-charts-bar-vertical
-      [view]="[250,500]"
-      [results]="indAtendEsgoto"
-      [showDataLabel]="true"
-      [xAxis]="true"
-      [customColors]="customColors"
-      [showGridLines]="false"
-      [roundEdges]="false"
-      [xAxisLabel]="'Índice de Atendimento de Esgoto - IAE'"
-      [showXAxisLabel]="true">
-    </ngx-charts-bar-vertical>
-  </div>  
+  </div>   
   <div class="line-6" style="display: block;">
     <ngx-charts-bar-vertical
       [view]="[250,500]"

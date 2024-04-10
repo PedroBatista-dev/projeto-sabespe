@@ -76,42 +76,14 @@
   .line {
     position: absolute;
     top: 350px;
-    left: 100px;
-    object-fit: cover;
-  }
-  
-  .line-2 {
-    position: absolute;
-    top: 350px;
-    left: 400px;
+    left: 700px;
     object-fit: cover;
   }
   
   .line-3 {
     position: absolute;
     top: 350px;
-    left: 700px;
-    object-fit: cover;
-  }
-
-  .line-4 {
-    position: absolute;
-    top: 350px;
     left: 1000px;
-    object-fit: cover;
-  }
-
-  .line-5 {
-    position: absolute;
-    top: 350px;
-    left: 1300px;
-    object-fit: cover;
-  }
-
-  .line-6 {
-    position: absolute;
-    top: 350px;
-    left: 1600px;
     object-fit: cover;
   }
   

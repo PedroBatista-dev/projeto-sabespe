@@ -33,6 +33,11 @@ import { IndicadoresContratuaisComponent } from './pages/indicadores-contraturai
 import { IndicadoresProcessoComponent } from './pages/indicadores-processo/indicadores-processo.component';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { MetasSPComponent } from './pages/metas-sp/metas-sp.component';
+import { CapaSPComponent } from './pages/capa-sp/capa-sp.component';
+import { CapaSAComponent } from './pages/capa-sa/capa-sa.component';
+import { CapaMauaComponent } from './pages/capa-maua/capa-maua.component';
+import { MetasSAComponent } from './pages/metas-sa/metas-sa.component';
+import { MetasMauaComponent } from './pages/metas-maua/metas-maua.component';
 
 
 @NgModule({
@@ -64,7 +69,12 @@ import { MetasSPComponent } from './pages/metas-sp/metas-sp.component';
     VoceSabiaVilaComponent,
     IndicadoresContratuaisComponent,
     IndicadoresProcessoComponent,    
-    MetasSPComponent
+    CapaSPComponent,
+    CapaSAComponent,
+    CapaMauaComponent,
+    MetasSPComponent,
+    MetasSAComponent,
+    MetasMauaComponent
   ],
   imports: [
     BrowserModule,

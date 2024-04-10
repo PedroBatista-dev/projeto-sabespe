@@ -1,0 +1,105 @@
+.div {
+  background-color: #f9f9f9;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.overlap-group {
+  position: absolute;
+  width: 1325px;
+  height: 987px;
+  top: 0;
+  left: 595px;
+}
+
+.overlap-2 {
+  position: absolute;
+  width: 921px;
+  height: 907px;
+  top: 80px;
+  left: 595px;
+}
+
+.grafismo {
+  position: absolute;
+  width: 596px;
+  height: 550px;
+  top: 357px;
+  left: 325px;
+  object-fit: cover;
+}
+
+.mask-group {
+  position: absolute;
+  width: 709px;
+  height: 763px;
+  top: 0;
+  left: 0;
+}
+
+.ativo {
+  position: absolute;
+  width: 498px;
+  height: 393px;
+  top: 0;
+  left: 1422px;
+  object-fit: cover;
+}
+
+.vector {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 1750px;
+}
+
+.img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 1600px;
+}
+
+.sao {
+  position: absolute;
+  top: 145px;
+  left: 288px;
+  mix-blend-mode: multiply;
+  font-family: "Satoshi-Black", Helvetica;
+  font-weight: 900;
+  color: rgba(18, 208, 255, 1);
+  font-size: 80px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.paulo {
+  position: absolute;
+  top: 196px;
+  left: 288px;
+  mix-blend-mode: multiply;
+  font-family: "Satoshi-Black", Helvetica;
+  font-weight: 900;
+  color: rgba(255, 198, 1, 1);
+  font-size: 80px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.group-2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 116px;
+}
+
+.group-3 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+}
