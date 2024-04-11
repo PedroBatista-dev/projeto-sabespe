@@ -32,6 +32,7 @@ import { CapaSAComponent } from './pages/capa-sa/capa-sa.component';
 import { CapaMauaComponent } from './pages/capa-maua/capa-maua.component';
 import { MetasSAComponent } from './pages/metas-sa/metas-sa.component';
 import { MetasMauaComponent } from './pages/metas-maua/metas-maua.component';
+import { ProcessoTCFLComponent } from './pages/processo-tcfl/processo-tcfl.component';
 
 const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
@@ -66,6 +67,7 @@ const routes: Routes = [
   { path: 'metas-sp', component: MetasSPComponent },
   { path: 'metas-sa', component: MetasSAComponent },
   { path: 'metas-maua', component: MetasMauaComponent },
+  { path: 'processo-tcfl', component: ProcessoTCFLComponent },
   { path: '', redirectTo: '/inicio', pathMatch: 'full' },
 ];
 

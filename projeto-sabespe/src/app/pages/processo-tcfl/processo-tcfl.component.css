@@ -1,0 +1,153 @@
+.div {
+    background-color: #f9f9f9;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .overlap-group {
+    position: absolute;
+    width: 1200px;
+    height: 103px;
+    top: 45px;
+    left: 58px;
+  }
+  
+  .metas-contratuais {
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: multiply;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: rgba(18, 208, 255, 1);
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .s-o-paulo {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    mix-blend-mode: multiply;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: rgba(255, 198, 1, 1);
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ativo {
+    position: absolute;
+    width: 486px;
+    height: 240px;
+    top: 0;
+    left: 1434px;
+    object-fit: cover;
+  }
+
+  .line {
+    position: absolute;
+    top: 350px;
+    object-fit: cover;
+  }
+  
+  .line-1 {
+    left: 50px;
+  }
+  
+  .line-2 {
+    left: 200px;
+  }
+  
+  .line-3 {
+    left: 350px;
+  }
+
+  .line-4 {
+    left: 500px;
+  }
+
+  .line-5 {
+    left: 650px;
+  }
+
+  .line-6 {
+    left: 800px;
+  }
+
+  .line-7 {
+    left: 950px;
+  }
+
+  .line-8 {
+    left: 1100px;
+  }
+
+  .line-9 {
+    left: 1250px;
+  }
+
+  .line-10 {
+    left: 1400px;
+  }
+
+  .line-11 {
+    left: 1550px;
+  }
+
+  .line-12 {
+    left: 1700px;
+  }
+  
+  .img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 920px;
+    left: 1600px;
+  }
+  
+  .group-2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 920px;
+    left: 116px;
+  }
+  
+  .frame {
+    position: absolute;
+    width: 1920px;
+    height: 18px;
+    top: 1062px;
+    left: 0;
+  }
+  
+  .group-3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 920px;
+  }
+  
+  .vector-2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 920px;
+    left: 1750px;
+  }
+  
+  ::ng-deep .textDataLabel {
+    transform: none !important; /* Remove a transformação diagonal */
+    text-anchor: middle; /* Alinha o texto horizontalmente no centro */
+    font-weight: bold; /* Aplica o estilo negrito aos rótulos de eixo X */
+  }
+
+  ::ng-deep .ng-star-inserted {
+    font-weight: bold; /* Aplica o estilo negrito aos rótulos de dados */
+  }
