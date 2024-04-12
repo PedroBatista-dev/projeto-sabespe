@@ -39,6 +39,10 @@ import { CapaMauaComponent } from './pages/capa-maua/capa-maua.component';
 import { MetasSAComponent } from './pages/metas-sa/metas-sa.component';
 import { MetasMauaComponent } from './pages/metas-maua/metas-maua.component';
 import { ProcessoTCFLComponent } from './pages/processo-tcfl/processo-tcfl.component';
+import { ProcessoNLEComponent } from './pages/processo-nle/processo-nle.component';
+import { ProcessoNLAComponent } from './pages/processo-nla/processo-nla.component';
+import { ProcessoIPRPComponent } from './pages/processo-iprp/processo-iprp.component';
+import { ProcessoISCComponent } from './pages/processo-isc/processo-isc.component';
 
 
 @NgModule({
@@ -77,6 +81,10 @@ import { ProcessoTCFLComponent } from './pages/processo-tcfl/processo-tcfl.compo
     MetasSAComponent,
     MetasMauaComponent,
     ProcessoTCFLComponent,
+    ProcessoNLEComponent,
+    ProcessoNLAComponent,
+    ProcessoIPRPComponent,
+    ProcessoISCComponent,
   ],
   imports: [
     BrowserModule,

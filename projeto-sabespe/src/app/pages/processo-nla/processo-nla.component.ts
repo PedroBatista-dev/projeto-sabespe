@@ -3,11 +3,11 @@ import { Component } from '@angular/core';
 import * as XLSX from 'xlsx';
 
 @Component({
-  selector: 'app-processo-tcfl',
-  templateUrl: './processo-tcfl.component.html',
-  styleUrls: ['./processo-tcfl.component.css']
+  selector: 'app-processo-nla',
+  templateUrl: './processo-nla.component.html',
+  styleUrls: ['./processo-nla.component.css']
 })
-export class ProcessoTCFLComponent {
+export class ProcessoNLAComponent {
 
   excelData = [];
 
@@ -44,132 +44,132 @@ export class ProcessoTCFLComponent {
         this.janeiro = [
           {
             name: "Previsto",
-            value: this.excelData[0]["Previsto"] || 0
+            value: this.excelData[24]["Previsto"] || 0
           },
           {
             name: "Realizado",
-            value: this.excelData[0]["Realizado"]
+            value: this.excelData[24]["Realizado"]
           },
         ];
 
         this.fevereiro = [
           {
             name: "Previsto",
-            value: this.excelData[1]["Previsto"] || 0
+            value: this.excelData[25]["Previsto"] || 0
           },
           {
             name: "Realizado",
-            value: this.excelData[1]["Realizado"] || 0
+            value: this.excelData[25]["Realizado"] || 0
           },
         ];
 
         this.marco = [
           {
             name: "Previsto",
-            value: this.excelData[2]["Previsto"] || 0
+            value: this.excelData[26]["Previsto"] || 0
           },
           {
             name: "Realizado",
-            value: this.excelData[2]["Realizado"] || 0
+            value: this.excelData[26]["Realizado"] || 0
           },
         ];
 
         this.abril = [
           {
             name: "Previsto",
-            value: this.excelData[3]["Previsto"] || 0
+            value: this.excelData[27]["Previsto"] || 0
           },
           {
             name: "Realizado",
-            value: this.excelData[3]["Realizado"] || 0
+            value: this.excelData[27]["Realizado"] || 0
           },
         ];
 
         this.maio = [
           {
             name: "Previsto",
-            value: this.excelData[4]["Previsto"] || 0
+            value: this.excelData[28]["Previsto"] || 0
           },
           {
             name: "Realizado",
-            value: this.excelData[4]["Realizado"] || 0
+            value: this.excelData[28]["Realizado"] || 0
           },
         ];
 
         this.junho = [
           {
             name: "Previsto",
-            value: this.excelData[5]["Previsto"] || 0
+            value: this.excelData[29]["Previsto"] || 0
           },
           {
             name: "Realizado",
-            value: this.excelData[5]["Realizado"] || 0
+            value: this.excelData[29]["Realizado"] || 0
           },
         ];
 
         this.julho = [
           {
             name: "Previsto",
-            value: this.excelData[6]["Previsto"] || 0
+            value: this.excelData[30]["Previsto"] || 0
           },
           {
             name: "Realizado",
-            value: this.excelData[6]["Realizado"] || 0
+            value: this.excelData[30]["Realizado"] || 0
           },
         ];
 
         this.agosto = [
           {
             name: "Previsto",
-            value: this.excelData[7]["Previsto"] || 0
+            value: this.excelData[31]["Previsto"] || 0
           },
           {
             name: "Realizado",
-            value: this.excelData[7]["Realizado"] || 0
+            value: this.excelData[31]["Realizado"] || 0
           },
         ];
 
         this.setembro = [
           {
             name: "Previsto",
-            value: this.excelData[8]["Previsto"] || 0
+            value: this.excelData[32]["Previsto"] || 0
           },
           {
             name: "Realizado",
-            value: this.excelData[8]["Realizado"] || 0
+            value: this.excelData[32]["Realizado"] || 0
           },
         ];
 
         this.outubro = [
           {
             name: "Previsto",
-            value: this.excelData[9]["Previsto"] || 0
+            value: this.excelData[33]["Previsto"] || 0
           },
           {
             name: "Realizado",
-            value: this.excelData[9]["Realizado"] || 0
+            value: this.excelData[33]["Realizado"] || 0
           },
         ];
 
         this.novembro = [
           {
             name: "Previsto",
-            value: this.excelData[10]["Previsto"] || 0
+            value: this.excelData[34]["Previsto"] || 0
           },
           {
             name: "Realizado",
-            value: this.excelData[10]["Realizado"] || 0
+            value: this.excelData[34]["Realizado"] || 0
           },
         ];
 
         this.dezembro = [
           {
             name: "Previsto",
-            value: this.excelData[11]["Previsto"] || 0
+            value: this.excelData[35]["Previsto"] || 0
           },
           {
             name: "Realizado",
-            value: this.excelData[11]["Realizado"] || 0
+            value: this.excelData[35]["Realizado"] || 0
           },
         ];        
       });    
