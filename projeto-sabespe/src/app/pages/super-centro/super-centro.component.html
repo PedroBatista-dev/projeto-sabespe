@@ -4,15 +4,15 @@
   <div class="overlap">
     <div class="overlap-2">
       <p class="compreende-os-munic">
-        <span class="text-wrapper">Compreende os municípios de </span>
-        <span class="span">São Paulo, Mauá e Santo André</span>
-        <span class="text-wrapper"> atendidos por 5 polos de manutenção.<br /><br /></span>
-        <span class="span">{{ excelData[1]["Nome Unidade:"] }}  </span>
-        <span class="text-wrapper"> {{ excelData[1]["Superintendência Centro"] }}<br /></span>
-        <span class="span">{{ excelData[2]["Nome Unidade:"] }}</span>
-        <span class="text-wrapper"> {{ excelData[2]["Superintendência Centro"] }}<br /></span>
-        <span class="span">{{ excelData[3]["Nome Unidade:"] }}</span>
-        <span class="text-wrapper"> {{ excelData[3]["Superintendência Centro"] }}<br /></span>
+        <span class="text-wrapper">{{ excelData[0]["Inicio Texto"] }} </span>
+        <span class="span">{{ excelData[0]["Cidades"] }}</span>
+        <span class="text-wrapper"> {{ excelData[0]["Fim Texto"] }}<br /><br /></span>
+        <span class="span">Área Total:</span>
+        <span class="text-wrapper"> {{ excelData[0]["Área Total"] }}<br /></span>
+        <span class="span">População Atendida:</span>
+        <span class="text-wrapper"> {{ excelData[0]["População Atendida"] }}<br /></span>
+        <span class="span">População Flutuante:</span>
+        <span class="text-wrapper"> {{ excelData[0]["População Flutuante"] }}<br /></span>
       </p>
       <img class="mask-group" src="assets/mapa.png" />
     </div>

@@ -10,7 +10,7 @@ import * as XLSX from 'xlsx';
 export class SuperCentroComponent {
 
   excelData = [];
-  atendimentoAgua = '';
+  atendimentoAgua = '100';
   atendimentoEsgoto = '';
   tratamentoEsgoto = '';
 
@@ -24,10 +24,10 @@ export class SuperCentroComponent {
         const worksheet = workbook.Sheets[sheetName];
         this.excelData = XLSX.utils.sheet_to_json(worksheet, { raw: true });
         
-        console.log(this.excelData);
-        this.atendimentoAgua = String(this.excelData[4]["Superintendência Centro"] * 100).replace(/\./g, ',');
-        this.atendimentoEsgoto = String(this.excelData[5]["Superintendência Centro"] * 100).replace(/\./g, ',');
-        this.tratamentoEsgoto = String(this.excelData[6]["Superintendência Centro"] * 100).replace(/\./g, ',');
+        console.log(this.excelData[0]);
+        this.atendimentoAgua = String(this.excelData[0]["Atendimento de Água"] * 100).replace(/\./g, ',');
+        this.atendimentoEsgoto = String(this.excelData[0]["Atendimento de Esgoto"] * 100).replace(/\./g, ',');
+        this.tratamentoEsgoto = String(this.excelData[0]["Tratamento de Esgoto"] * 100).replace(/\./g, ',');
       });
   }
 
