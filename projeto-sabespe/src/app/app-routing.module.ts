@@ -37,6 +37,8 @@ import { ProcessoNLEComponent } from './pages/processo-nle/processo-nle.componen
 import { ProcessoNLAComponent } from './pages/processo-nla/processo-nla.component';
 import { ProcessoIPRPComponent } from './pages/processo-iprp/processo-iprp.component';
 import { ProcessoISCComponent } from './pages/processo-isc/processo-isc.component';
+import { TelaBotoesComponent } from './pages/tela-botoes/tela-botoes.component';
+import { MapaEstrategicoComponent } from './pages/mapa-estrategico/mapa-estrategico.component';
 
 const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
@@ -76,6 +78,8 @@ const routes: Routes = [
   { path: 'processo-nla', component: ProcessoNLAComponent },
   { path: 'processo-iprp', component: ProcessoIPRPComponent },
   { path: 'processo-isc', component: ProcessoISCComponent },
+  { path: 'tela-botoes', component: TelaBotoesComponent },
+  { path: 'mapa-estrategico', component: MapaEstrategicoComponent },
   { path: '', redirectTo: '/inicio', pathMatch: 'full' },
 ];
 

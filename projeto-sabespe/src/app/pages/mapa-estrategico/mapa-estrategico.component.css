@@ -1,0 +1,54 @@
+.div {
+  background-color: #f9f9f9;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.overlap-group {
+  position: absolute;
+  width: 1658px;
+  height: 988px;
+  top: 46px;
+  left: 78px;
+}
+
+.mask-group {
+  position: absolute;
+  width: 1531px;
+  height: 988px;
+  top: 0;
+  left: 98px;
+}
+
+.vector {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 1600px;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 116px;
+  position: absolute;
+}
+
+.group-2 {
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 0;
+  position: absolute;
+}
+
+.vector-2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 1750px;
+}

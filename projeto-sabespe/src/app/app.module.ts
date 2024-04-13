@@ -43,6 +43,8 @@ import { ProcessoNLEComponent } from './pages/processo-nle/processo-nle.componen
 import { ProcessoNLAComponent } from './pages/processo-nla/processo-nla.component';
 import { ProcessoIPRPComponent } from './pages/processo-iprp/processo-iprp.component';
 import { ProcessoISCComponent } from './pages/processo-isc/processo-isc.component';
+import { TelaBotoesComponent } from './pages/tela-botoes/tela-botoes.component';
+import { MapaEstrategicoComponent } from './pages/mapa-estrategico/mapa-estrategico.component';
 
 
 @NgModule({
@@ -85,6 +87,8 @@ import { ProcessoISCComponent } from './pages/processo-isc/processo-isc.componen
     ProcessoNLAComponent,
     ProcessoIPRPComponent,
     ProcessoISCComponent,
+    TelaBotoesComponent,
+    MapaEstrategicoComponent,
   ],
   imports: [
     BrowserModule,

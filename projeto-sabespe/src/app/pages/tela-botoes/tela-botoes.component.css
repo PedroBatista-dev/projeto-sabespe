@@ -1,0 +1,227 @@
+.div {
+  background-color: #f9f9f9;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.vector {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 1600px;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  left: 116px;
+  position: absolute;
+  top: 920px;
+}
+
+.frame {
+  position: absolute;
+  width: 1920px;
+  height: 18px;
+  top: 1062px;
+  left: 0;
+}
+
+.group-2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 920px;
+}
+
+.vector-2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 1750px;
+}
+
+.ativo {
+  position: absolute;
+  width: 343px;
+  height: 271px;
+  top: 0;
+  left: 1577px;
+  object-fit: cover;
+}
+
+.frame-80 {
+  position: absolute;
+  height: 80px;
+}
+
+.frame-2 {
+  width: 401px;
+  top: 179px;
+  left: 1459px;
+}
+
+.frame-3 {
+  width: 317px;
+  top: 179px;
+  left: 60px;
+}
+
+.frame-4 {
+  width: 497px;
+  top: 179px;
+  left: 397px;
+}
+
+.frame-5 {
+  width: 525px;
+  top: 179px;
+  left: 914px;
+}
+
+.frame-6 {
+  width: 412px;
+  top: 279px;
+  left: 60px;
+}
+
+.frame-7 {
+  width: 398px;
+  top: 285px;
+  left: 1462px;
+}
+
+.frame-8 {
+  width: 469px;
+  top: 279px;
+  left: 485px;
+}
+
+.frame-9 {
+  width: 461px;
+  top: 279px;
+  left: 974px;
+}
+
+.frame-10 {
+  width: 455px;
+  top: 379px;
+  left: 60px;
+}
+
+.frame-11 {
+  width: 402px;
+  top: 379px;
+  left: 535px;
+}
+
+.frame-12 {
+  width: 402px;
+  top: 379px;
+  left: 957px;
+}
+
+.frame-13 {
+  width: 392px;
+  top: 479px;
+  left: 60px;
+}
+
+.frame-14 {
+  width: 404px;
+  top: 479px;
+  left: 472px;
+}
+
+.frame-15 {
+  width: 390px;
+  top: 479px;
+  left: 896px;
+}
+
+.frame-16 {
+  width: 550px;
+  top: 479px;
+  left: 1310px;
+}
+
+.frame-17 {
+  width: 474px;
+  top: 379px;
+  left: 1386px;
+}
+
+.frame-18 {
+  width: 435px;
+  top: 579px;
+  left: 505px;
+}
+
+.frame-19 {
+  width: 435px;
+  top: 579px;
+  left: 1425px;
+}
+
+.frame-20 {
+  width: 435px;
+  top: 579px;
+  left: 60px;
+}
+
+.frame-21 {
+  width: 435px;
+  top: 579px;
+  left: 970px;
+}
+
+.frame-22 {
+  width: 388px;
+  top: 679px;
+  left: 60px;
+}
+
+.frame-23 {
+  width: 388px;
+  top: 679px;
+  left: 1472px;
+}
+
+.frame-24 {
+  width: 576px;
+  top: 679px;
+  left: 876px;
+}
+
+.frame-25 {
+  width: 388px;
+  top: 679px;
+  left: 469px;
+}
+
+.frame-26 {
+  width: 435px;
+  top: 779px;
+  left: 60px;
+}
+
+.frame-27 {
+  width: 435px;
+  top: 779px;
+  left: 515px;
+}
+
+.frame-28 {
+  width: 435px;
+  top: 779px;
+  left: 970px;
+}
+
+.frame-29 {
+  width: 435px;
+  top: 779px;
+  left: 1425px;
+}
