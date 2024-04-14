@@ -38,69 +38,75 @@ export class MetasSPComponent {
         this.indCobAgua = [
           {
             name: "Previsto",
-            value: parseFloat(this.excelData[3]["__EMPTY"])
+            value: parseFloat(this.excelData[0]["Previsto"])
           },
           {
             name: "Realizado",
-            value: parseFloat(this.excelData[3]["__EMPTY_1"])
+            value: parseFloat(this.excelData[0]["Realizado"])
           },
         ];
 
         this.indAtendAgua = [
           {
             name: "Previsto",
-            value: parseFloat(this.excelData[4]["__EMPTY"])
+            value: parseFloat(this.excelData[1]["Previsto"])
           },
           {
             name: "Realizado",
-            value: parseFloat(this.excelData[4]["__EMPTY_1"])
+            value: parseFloat(this.excelData[1]["Realizado"])
           },
         ];
 
         this.indPerdReais = [
           {
             name: "Previsto",
-            value: parseFloat(this.excelData[5]["__EMPTY"])
+            value: parseFloat(this.excelData[2]["Previsto"])
           },
           {
             name: "Realizado",
-            value: parseFloat(this.excelData[5]["__EMPTY_1"])
+            value: parseFloat(this.excelData[2]["Realizado"])
           },
         ];
 
         this.indCobEsgoto = [
           {
             name: "Previsto",
-            value: parseFloat(this.excelData[6]["__EMPTY"])
+            value: parseFloat(this.excelData[3]["Previsto"])
           },
           {
             name: "Realizado",
-            value: parseFloat(this.excelData[6]["__EMPTY_1"])
+            value: parseFloat(this.excelData[3]["Realizado"])
           },
         ];
 
         this.indAtendEsgoto = [
           {
             name: "Previsto",
-            value: parseFloat(this.excelData[7]["__EMPTY"])
+            value: parseFloat(this.excelData[4]["Previsto"])
           },
           {
             name: "Realizado",
-            value: parseFloat(this.excelData[7]["__EMPTY_1"])
+            value: parseFloat(this.excelData[4]["Realizado"])
           },
         ];
 
         this.indEcoColetadas = [
           {
             name: "Previsto",
-            value: parseFloat(this.excelData[8]["__EMPTY"])
+            value: parseFloat(this.excelData[5]["Previsto"])
           },
           {
             name: "Realizado",
-            value: parseFloat(this.excelData[8]["__EMPTY_1"])
+            value: parseFloat(this.excelData[5]["Realizado"])
           },
         ];
-        console.log(this.indCobAgua)
       });    
+  }
+
+  formatDataLabel(value: number): string {
+    return `${value} %`
+  }
+  formatDataLabelLitro(value: number): string {
+    return `${value} l.l/d`
   }
 }
