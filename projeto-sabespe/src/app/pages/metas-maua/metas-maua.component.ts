@@ -38,25 +38,32 @@ export class MetasMauaComponent {
         this.indCobAgua = [
           {
             name: "Previsto",
-            value: parseFloat(this.excelData[3]["__EMPTY"])
+            value: parseFloat(this.excelData[0]["Previsto"])
           },
           {
             name: "Realizado",
-            value: parseFloat(this.excelData[3]["__EMPTY_1"])
+            value: parseFloat(this.excelData[0]["Realizado"])
           },
         ];
 
         this.indPerdReais = [
           {
             name: "Previsto",
-            value: parseFloat(this.excelData[4]["__EMPTY"])
+            value: parseFloat(this.excelData[1]["Previsto"])
           },
           {
             name: "Realizado",
-            value: parseFloat(this.excelData[4]["__EMPTY_1"])
+            value: parseFloat(this.excelData[1]["Realizado"])
           },
         ];
         console.log(this.indCobAgua)
       });    
+  }
+
+  formatDataLabel(value: number): string {
+    return `${value} %`
+  }
+  formatDataLabelLitro(value: number): string {
+    return `${value} l.l/d`
   }
 }

@@ -1,0 +1,107 @@
+<div class="div">
+  <div class="overlap-group">
+    <div class="metas-contratuais">METAS CONTRATUAIS</div>
+    <div class="s-o-paulo">SÃO PAULO</div>
+  </div>
+  <p class="popula-o-a">
+    População: {{ excelData[0]["População"] }}<br />
+    Assinatura do contrato: {{ excelData[0]["Assinatura do Contrato"] }}<br />
+    Duração: {{ excelData[0]["Duração"] }}
+  </p>
+  <img class="ativo" src="assets/grafismo-2.png" />
+  <div class="text-wrapper">{{ excelData[0]["Ano_1"] }}</div>
+  <div class="line" style="display: block;">
+    <ngx-charts-bar-vertical
+      [view]="[250,500]"
+      [results]="indCobAgua"
+      [showDataLabel]="true"
+      [xAxis]="true"
+      [customColors]="customColors"
+      [showGridLines]="false"
+      [roundEdges]="false"
+      [xAxisLabel]="'Índice de Cobertura de Água - ICA'"
+      [showXAxisLabel]="true"
+      [dataLabelFormatting]="formatDataLabel">
+    </ngx-charts-bar-vertical>
+  </div>  
+  <div class="line-2" style="display: block;">
+    <ngx-charts-bar-vertical
+      [view]="[250,500]"
+      [results]="indAtendAgua"
+      [showDataLabel]="true"
+      [xAxis]="true"
+      [customColors]="customColors"
+      [showGridLines]="false"
+      [roundEdges]="false"
+      [xAxisLabel]="'Índice de Atendimento de Água - IAA'"
+      [showXAxisLabel]="true"
+      [dataLabelFormatting]="formatDataLabel">
+    </ngx-charts-bar-vertical>
+  </div>  
+  <div class="line-3" style="display: block;">
+    <ngx-charts-bar-vertical
+      [view]="[250,500]"
+      [results]="indPerdReais"
+      [showDataLabel]="true"
+      [xAxis]="true"
+      [customColors]="customColors"
+      [showGridLines]="false"
+      [roundEdges]="false"
+      [xAxisLabel]="'Índice de Perdas Reais Totais - IPDT'"
+      [showXAxisLabel]="true"
+      [dataLabelFormatting]="formatDataLabelLitro">
+    </ngx-charts-bar-vertical>
+  </div>  
+  <div class="line-4" style="display: block;">
+    <ngx-charts-bar-vertical
+      [view]="[250,500]"
+      [results]="indCobEsgoto"
+      [showDataLabel]="true"
+      [xAxis]="true"
+      [customColors]="customColors"
+      [showGridLines]="false"
+      [roundEdges]="false"
+      [xAxisLabel]="'Índice de Cobertura de Esgoto - ICE'"
+      [showXAxisLabel]="true"
+      [dataLabelFormatting]="formatDataLabel">
+    </ngx-charts-bar-vertical>
+  </div>  
+  <div class="line-5" style="display: block;">
+    <ngx-charts-bar-vertical
+      [view]="[250,500]"
+      [results]="indAtendEsgoto"
+      [showDataLabel]="true"
+      [xAxis]="true"
+      [customColors]="customColors"
+      [showGridLines]="false"
+      [roundEdges]="false"
+      [xAxisLabel]="'Índice de Atendimento de Esgoto - IAE'"
+      [showXAxisLabel]="true"
+      [dataLabelFormatting]="formatDataLabel">
+    </ngx-charts-bar-vertical>
+  </div>  
+  <div class="line-6" style="display: block;">
+    <ngx-charts-bar-vertical
+      [view]="[250,500]"
+      [results]="indEcoColetadas"
+      [showDataLabel]="true"
+      [xAxis]="true"
+      [customColors]="customColors"
+      [showGridLines]="false"
+      [roundEdges]="false"
+      [xAxisLabel]="'Índice de Economias Coletadas - IEC'"
+      [showXAxisLabel]="true"
+      [dataLabelFormatting]="formatDataLabel">
+    </ngx-charts-bar-vertical>
+  </div>  
+  <img class="img" src="assets/gif/ICONES_seta-esq.gif" [routerLink]="['/capa-sp']" />
+  <img class="group-2" src="assets/gif/ICONES_X.gif" [routerLink]="['/inicio']" />
+  <img class="frame" src="assets/linha-colorida.png" />
+  <img class="group-3" src="assets/gif/ICONES_casa.gif" [routerLink]="['/menu']" />
+  <img class="vector-2" src="assets/gif/ICONES_seta-dir.gif" [routerLink]="['/capa-sa']" />
+</div>
+
+
+    
+
+

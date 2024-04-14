@@ -39,6 +39,36 @@ import { ProcessoIPRPComponent } from './pages/processo-iprp/processo-iprp.compo
 import { ProcessoISCComponent } from './pages/processo-isc/processo-isc.component';
 import { TelaBotoesComponent } from './pages/tela-botoes/tela-botoes.component';
 import { MapaEstrategicoComponent } from './pages/mapa-estrategico/mapa-estrategico.component';
+import { MetasSP2Component } from './pages/metas-sp-2/metas-sp-2.component';
+import { MetasSP3Component } from './pages/metas-sp-3/metas-sp-3.component';
+import { MetasSA2Component } from './pages/metas-sa-2/metas-sa-2.component';
+import { MetasSA3Component } from './pages/metas-sa-3/metas-sa-3.component';
+import { MetasMaua2Component } from './pages/metas-maua-2/metas-maua-2.component';
+import { MetasMaua3Component } from './pages/metas-maua-3/metas-maua-3.component';
+import { ProcessoIANCComponent } from './pages/processo-ianc/processo-ianc.component';
+import { ProcessoVPComponent } from './pages/processo-vp/processo-vp.component';
+import { ProcessoCMCComponent } from './pages/processo-cmc/processo-cmc.component';
+import { ProcessoIECComponent } from './pages/processo-iec/processo-iec.component';
+import { ProcessoIPDTComponent } from './pages/processo-ipdt/processo-ipdt.component';
+import { ProcessoTCIComponent } from './pages/processo-tci/processo-tci.component';
+import { ProcessoTCAComponent } from './pages/processo-tca/processo-tca.component';
+import { ProcessoTCDComponent } from './pages/processo-tcd/processo-tcd.component';
+import { ProcessoASAComponent } from './pages/processo-asa/processo-asa.component';
+import { ProcessoASEComponent } from './pages/processo-ase/processo-ase.component';
+import { ProcessoINComponent } from './pages/processo-in/processo-in.component';
+import { ProcessoIVVComponent } from './pages/processo-ivv/processo-ivv.component';
+import { ProcessoIACTComponent } from './pages/processo-iact/processo-iact.component';
+import { ProcessoIRFAComponent } from './pages/processo-irfa/processo-irfa.component';
+import { ProcessoIDGComponent } from './pages/processo-idg/processo-idg.component';
+import { ProcessoIEPComponent } from './pages/processo-iep/processo-iep.component';
+import { ProcessoIEAMComponent } from './pages/processo-ieam/processo-ieam.component';
+import { ProcessoNPSComponent } from './pages/processo-nps/processo-nps.component';
+import { ProcessoTOUVComponent } from './pages/processo-touv/processo-touv.component';
+import { ProcessoTCDBOComponent } from './pages/processo-tcdbo/processo-tcdbo.component';
+import { ProcessoTRRComponent } from './pages/processo-trr/processo-trr.component';
+import { ProcessoIORCComponent } from './pages/processo-iorc/processo-iorc.component';
+import { ProcessoIORDComponent } from './pages/processo-iord/processo-iord.component';
+import { ProcessoIGQComponent } from './pages/processo-igq/processo-igq.component';
 
 const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
@@ -71,13 +101,43 @@ const routes: Routes = [
   { path: 'capa-sa', component: CapaSAComponent },
   { path: 'capa-maua', component: CapaMauaComponent },
   { path: 'metas-sp', component: MetasSPComponent },
+  { path: 'metas-sp-2', component: MetasSP2Component },
+  { path: 'metas-sp-3', component: MetasSP3Component },
   { path: 'metas-sa', component: MetasSAComponent },
+  { path: 'metas-sa-2', component: MetasSA2Component },
+  { path: 'metas-sa-3', component: MetasSA3Component },
   { path: 'metas-maua', component: MetasMauaComponent },
+  { path: 'metas-maua-2', component: MetasMaua2Component },
+  { path: 'metas-maua-3', component: MetasMaua3Component },
   { path: 'processo-tcfl', component: ProcessoTCFLComponent },
   { path: 'processo-nle', component: ProcessoNLEComponent },
   { path: 'processo-nla', component: ProcessoNLAComponent },
   { path: 'processo-iprp', component: ProcessoIPRPComponent },
   { path: 'processo-isc', component: ProcessoISCComponent },
+  { path: 'processo-ianc', component: ProcessoIANCComponent },
+  { path: 'processo-vp', component: ProcessoVPComponent },
+  { path: 'processo-cmc', component: ProcessoCMCComponent },
+  { path: 'processo-iec', component: ProcessoIECComponent },
+  { path: 'processo-ipdt', component: ProcessoIPDTComponent },
+  { path: 'processo-tci', component: ProcessoTCIComponent },
+  { path: 'processo-tca', component: ProcessoTCAComponent },
+  { path: 'processo-tcd', component: ProcessoTCDComponent },
+  { path: 'processo-asa', component: ProcessoASAComponent },
+  { path: 'processo-ase', component: ProcessoASEComponent },
+  { path: 'processo-in', component: ProcessoINComponent },
+  { path: 'processo-ivv', component: ProcessoIVVComponent },
+  { path: 'processo-iact', component: ProcessoIACTComponent },
+  { path: 'processo-irfa', component: ProcessoIRFAComponent },
+  { path: 'processo-idg', component: ProcessoIDGComponent },
+  { path: 'processo-iep', component: ProcessoIEPComponent },
+  { path: 'processo-ieam', component: ProcessoIEAMComponent },
+  { path: 'processo-nps', component: ProcessoNPSComponent },
+  { path: 'processo-touv', component: ProcessoTOUVComponent },
+  { path: 'processo-tcdbo', component: ProcessoTCDBOComponent },
+  { path: 'processo-trr', component: ProcessoTRRComponent },
+  { path: 'processo-iorc', component: ProcessoIORCComponent },
+  { path: 'processo-iord', component: ProcessoIORDComponent },
+  { path: 'processo-igq', component: ProcessoIGQComponent },
   { path: 'tela-botoes', component: TelaBotoesComponent },
   { path: 'mapa-estrategico', component: MapaEstrategicoComponent },
   { path: '', redirectTo: '/inicio', pathMatch: 'full' },

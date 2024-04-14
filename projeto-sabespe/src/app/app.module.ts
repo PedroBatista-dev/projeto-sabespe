@@ -45,6 +45,36 @@ import { ProcessoIPRPComponent } from './pages/processo-iprp/processo-iprp.compo
 import { ProcessoISCComponent } from './pages/processo-isc/processo-isc.component';
 import { TelaBotoesComponent } from './pages/tela-botoes/tela-botoes.component';
 import { MapaEstrategicoComponent } from './pages/mapa-estrategico/mapa-estrategico.component';
+import { MetasSP2Component } from './pages/metas-sp-2/metas-sp-2.component';
+import { MetasSP3Component } from './pages/metas-sp-3/metas-sp-3.component';
+import { MetasSA2Component } from './pages/metas-sa-2/metas-sa-2.component';
+import { MetasSA3Component } from './pages/metas-sa-3/metas-sa-3.component';
+import { MetasMaua2Component } from './pages/metas-maua-2/metas-maua-2.component';
+import { MetasMaua3Component } from './pages/metas-maua-3/metas-maua-3.component';
+import { ProcessoIANCComponent } from './pages/processo-ianc/processo-ianc.component';
+import { ProcessoVPComponent } from './pages/processo-vp/processo-vp.component';
+import { ProcessoCMCComponent } from './pages/processo-cmc/processo-cmc.component';
+import { ProcessoIECComponent } from './pages/processo-iec/processo-iec.component';
+import { ProcessoIPDTComponent } from './pages/processo-ipdt/processo-ipdt.component';
+import { ProcessoTCIComponent } from './pages/processo-tci/processo-tci.component';
+import { ProcessoTCAComponent } from './pages/processo-tca/processo-tca.component';
+import { ProcessoTCDComponent } from './pages/processo-tcd/processo-tcd.component';
+import { ProcessoASAComponent } from './pages/processo-asa/processo-asa.component';
+import { ProcessoASEComponent } from './pages/processo-ase/processo-ase.component';
+import { ProcessoINComponent } from './pages/processo-in/processo-in.component';
+import { ProcessoIVVComponent } from './pages/processo-ivv/processo-ivv.component';
+import { ProcessoIACTComponent } from './pages/processo-iact/processo-iact.component';
+import { ProcessoIRFAComponent } from './pages/processo-irfa/processo-irfa.component';
+import { ProcessoIDGComponent } from './pages/processo-idg/processo-idg.component';
+import { ProcessoIEPComponent } from './pages/processo-iep/processo-iep.component';
+import { ProcessoIEAMComponent } from './pages/processo-ieam/processo-ieam.component';
+import { ProcessoNPSComponent } from './pages/processo-nps/processo-nps.component';
+import { ProcessoTOUVComponent } from './pages/processo-touv/processo-touv.component';
+import { ProcessoTCDBOComponent } from './pages/processo-tcdbo/processo-tcdbo.component';
+import { ProcessoTRRComponent } from './pages/processo-trr/processo-trr.component';
+import { ProcessoIORCComponent } from './pages/processo-iorc/processo-iorc.component';
+import { ProcessoIORDComponent } from './pages/processo-iord/processo-iord.component';
+import { ProcessoIGQComponent } from './pages/processo-igq/processo-igq.component';
 
 
 @NgModule({
@@ -80,13 +110,43 @@ import { MapaEstrategicoComponent } from './pages/mapa-estrategico/mapa-estrateg
     CapaSAComponent,
     CapaMauaComponent,
     MetasSPComponent,
+    MetasSP2Component,
+    MetasSP3Component,
     MetasSAComponent,
+    MetasSA2Component,
+    MetasSA3Component,
     MetasMauaComponent,
+    MetasMaua2Component,
+    MetasMaua3Component,
     ProcessoTCFLComponent,
     ProcessoNLEComponent,
     ProcessoNLAComponent,
     ProcessoIPRPComponent,
     ProcessoISCComponent,
+    ProcessoIANCComponent,
+    ProcessoVPComponent,
+    ProcessoCMCComponent,
+    ProcessoIECComponent,
+    ProcessoIPDTComponent,
+    ProcessoTCIComponent,
+    ProcessoTCAComponent,
+    ProcessoTCDComponent,
+    ProcessoASAComponent,
+    ProcessoASEComponent,
+    ProcessoINComponent,
+    ProcessoIVVComponent,
+    ProcessoIACTComponent,
+    ProcessoIRFAComponent,
+    ProcessoIDGComponent,
+    ProcessoIEPComponent,
+    ProcessoIEAMComponent,
+    ProcessoNPSComponent,
+    ProcessoTOUVComponent,
+    ProcessoTCDBOComponent,
+    ProcessoTRRComponent,
+    ProcessoIORCComponent,
+    ProcessoIORDComponent,
+    ProcessoIGQComponent,
     TelaBotoesComponent,
     MapaEstrategicoComponent,
   ],

@@ -4,12 +4,12 @@
     <div class="s-o-paulo">SANTO ANDRÉ</div>
   </div>
   <p class="popula-o-a">
-    População A: {{ excelData[0]["População A: "] }}<br />
-    Assinatura do contrato: {{ excelData[0]["Assinatura do Contrato:"] }}<br />
-    Duração: {{ excelData[0]["Duração: "] }}
+    População: {{ excelData[0]["População"] }}<br />
+    Assinatura do contrato: {{ excelData[0]["Assinatura do Contrato"] }}<br />
+    Duração: {{ excelData[0]["Duração"] }}
   </p>
   <img class="ativo" src="assets/grafismo-2.png" />
-  <div class="text-wrapper">2023</div>
+  <div class="text-wrapper">{{ excelData[0]["Ano"] }}</div>
   <div class="line" style="display: block;">
     <ngx-charts-bar-vertical
       [view]="[250,500]"
@@ -20,7 +20,8 @@
       [showGridLines]="false"
       [roundEdges]="false"
       [xAxisLabel]="'Índice de Cobertura de Água - ICA'"
-      [showXAxisLabel]="true">
+      [showXAxisLabel]="true"
+      [dataLabelFormatting]="formatDataLabel">
     </ngx-charts-bar-vertical>
   </div>  
   <div class="line-3" style="display: block;">
@@ -33,7 +34,8 @@
       [showGridLines]="false"
       [roundEdges]="false"
       [xAxisLabel]="'Índice de Perdas Reais Totais - IPDT'"
-      [showXAxisLabel]="true">
+      [showXAxisLabel]="true"
+      [dataLabelFormatting]="formatDataLabelLitro">
     </ngx-charts-bar-vertical>
   </div>  
   <div class="line-4" style="display: block;">
@@ -46,7 +48,8 @@
       [showGridLines]="false"
       [roundEdges]="false"
       [xAxisLabel]="'Índice de Cobertura de Esgoto - IAE'"
-      [showXAxisLabel]="true">
+      [showXAxisLabel]="true"
+      [dataLabelFormatting]="formatDataLabel">
     </ngx-charts-bar-vertical>
   </div>   
   <div class="line-6" style="display: block;">
@@ -59,7 +62,8 @@
       [showGridLines]="false"
       [roundEdges]="false"
       [xAxisLabel]="'Índice de Economias Coletadas - IEC'"
-      [showXAxisLabel]="true">
+      [showXAxisLabel]="true"
+      [dataLabelFormatting]="formatDataLabel">
     </ngx-charts-bar-vertical>
   </div>  
   <img class="img" src="assets/gif/ICONES_seta-esq.gif" [routerLink]="['/capa-sa']" />

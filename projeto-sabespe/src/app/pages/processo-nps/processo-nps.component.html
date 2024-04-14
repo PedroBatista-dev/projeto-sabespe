@@ -1,0 +1,82 @@
+<div class="div">
+  <div class="overlap-group">
+    <div class="metas-contratuais">NPS</div>
+    <div class="s-o-paulo">Net Promoter Score</div>
+  </div>
+  <img class="ativo" src="assets/grafismo-2.png" />
+  <div class="line line-1" style="display: block;">
+    <ngx-charts-bar-vertical
+      [view]="[300,500]"
+      [results]="janeiro"
+      [showDataLabel]="true"
+      [xAxis]="true"
+      [customColors]="customColors"
+      [showGridLines]="false"
+      [roundEdges]="false"
+      [xAxisLabel]="'Janeiro'"
+      [showXAxisLabel]="true">
+    </ngx-charts-bar-vertical>
+  </div>  
+  <div class="line line-3" style="display: block;">
+    <ngx-charts-bar-vertical
+      [view]="[300,500]"
+      [results]="marco"
+      [showDataLabel]="true"
+      [xAxis]="true"
+      [customColors]="customColors"
+      [showGridLines]="false"
+      [roundEdges]="false"
+      [xAxisLabel]="'Março'"
+      [showXAxisLabel]="true">
+    </ngx-charts-bar-vertical>
+  </div>    
+  <div class="line line-6" style="display: block;">
+    <ngx-charts-bar-vertical
+      [view]="[300,500]"
+      [results]="junho"
+      [showDataLabel]="true"
+      [xAxis]="true"
+      [customColors]="customColors"
+      [showGridLines]="false"
+      [roundEdges]="false"
+      [xAxisLabel]="'Junho'"
+      [showXAxisLabel]="true">
+    </ngx-charts-bar-vertical>
+  </div>   
+  <div class="line line-9" style="display: block;">
+    <ngx-charts-bar-vertical
+      [view]="[300,500]"
+      [results]="setembro"
+      [showDataLabel]="true"
+      [xAxis]="true"
+      [customColors]="customColors"
+      [showGridLines]="false"
+      [roundEdges]="false"
+      [xAxisLabel]="'Setembro'"
+      [showXAxisLabel]="true">
+    </ngx-charts-bar-vertical>
+  </div>   
+  <div class="line line-12" style="display: block;">
+    <ngx-charts-bar-vertical
+      [view]="[300,500]"
+      [results]="dezembro"
+      [showDataLabel]="true"
+      [xAxis]="true"
+      [customColors]="customColors"
+      [showGridLines]="false"
+      [roundEdges]="false"
+      [xAxisLabel]="'Dezembro'"
+      [showXAxisLabel]="true">
+    </ngx-charts-bar-vertical>
+  </div>  
+  <img class="img" src="assets/gif/ICONES_seta-esq.gif" [routerLink]="['/capa-sp']" />
+  <img class="group-2" src="assets/gif/ICONES_X.gif" [routerLink]="['/inicio']" />
+  <img class="frame" src="assets/linha-colorida.png" />
+  <img class="group-3" src="assets/gif/ICONES_casa.gif" [routerLink]="['/menu']" />
+  <img class="vector-2" src="assets/gif/ICONES_seta-dir.gif" [routerLink]="['/capa-sa']" />
+</div>
+
+
+    
+
+
