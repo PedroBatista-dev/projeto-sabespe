@@ -134,14 +134,6 @@
     top: 920px;
   }
   
-  .vector-2 {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    top: 920px;
-    left: 1750px;
-  }
-  
   ::ng-deep .textDataLabel {
     transform: none !important; /* Remove a transformação diagonal */
     text-anchor: middle; /* Alinha o texto horizontalmente no centro */
