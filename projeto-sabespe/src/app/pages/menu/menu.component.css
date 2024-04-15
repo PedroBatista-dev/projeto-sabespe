@@ -51,6 +51,7 @@
   position: absolute;
   background-color: rgba(18, 208, 255, 1);
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .text-wrapper {
@@ -77,6 +78,7 @@
   position: absolute;
   background-color: rgba(18, 208, 255, 1);
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .vector-2 {
@@ -116,6 +118,7 @@
   position: absolute;
   background-color: rgba(18, 208, 255, 1);
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .frame-2 {
@@ -131,6 +134,7 @@
   position: absolute;
   background-color: rgba(18, 208, 255, 1);
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .vector-4 {
@@ -139,6 +143,7 @@
   height: 150px;
   top: 920px;
   left: 1750px;
+  cursor: pointer;
 }
 
 .group-2 {
@@ -147,6 +152,7 @@
   position: absolute;
   left: 116px;
   top: 920px;
+  cursor: pointer;
 }
 
 .vector-5 {
@@ -155,6 +161,7 @@
   height: 150px;
   top: 920px;
   left: 1600px;
+  cursor: pointer;
 }
 
 .group-3 {
@@ -162,4 +169,5 @@
   height: 150px;
   position: absolute;
   top: 920px;
+  cursor: pointer;
 }

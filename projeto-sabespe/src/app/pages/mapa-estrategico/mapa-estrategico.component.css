@@ -27,6 +27,7 @@
   height: 150px;
   top: 920px;
   left: 1600px;
+  cursor: pointer;
 }
 
 .img {
@@ -35,6 +36,7 @@
   top: 920px;
   left: 116px;
   position: absolute;
+  cursor: pointer;
 }
 
 .group-2 {
@@ -43,6 +45,7 @@
   top: 920px;
   left: 0;
   position: absolute;
+  cursor: pointer;
 }
 
 .vector-2 {
@@ -51,4 +54,5 @@
   height: 150px;
   top: 920px;
   left: 1750px;
+  cursor: pointer;
 }

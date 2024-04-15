@@ -162,6 +162,7 @@
     height: 150px;
     top: 920px;
     left: 1600px;
+    cursor: pointer;
   }
   
   .img {
@@ -170,6 +171,7 @@
     height: 150px;
     top: 920px;
     left: 116px;
+    cursor: pointer;
   }
   
   .group-2 {
@@ -203,5 +205,6 @@
     height: 150px;
     top: 920px;
     left: 1750px;
+    cursor: pointer;
   }
   

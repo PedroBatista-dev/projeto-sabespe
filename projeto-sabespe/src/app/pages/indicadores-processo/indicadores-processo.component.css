@@ -48,28 +48,13 @@
   object-fit: cover;
 }
 
-.vector {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  top: 920px;
-  left: 1600px;
-}
-
-.img {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  top: 920px;
-  left: 1750px;
-}
-
 .group-2 {
   position: absolute;
   width: 150px;
   height: 150px;
   top: 920px;
   left: 116px;
+  cursor: pointer;
 }
 
 .group-3 {
@@ -77,6 +62,7 @@
   width: 150px;
   height: 150px;
   top: 920px;
+  cursor: pointer;
 }
 
 .frame {
@@ -85,6 +71,7 @@
   position: absolute;
   height: 59px;
   top: 468px;
+  cursor: pointer;
 }
 
 .frame-2 {
@@ -93,6 +80,7 @@
   position: absolute;
   height: 59px;
   top: 468px;
+  cursor: pointer;
 }
 
 .frame-3 {

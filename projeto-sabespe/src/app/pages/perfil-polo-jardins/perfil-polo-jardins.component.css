@@ -259,6 +259,7 @@
     height: 125px;
     top: 48px;
     left: 1761px;
+    cursor: pointer;
   }
   
   .text-wrapper-17 {
@@ -277,19 +278,23 @@
   .vector {    
     top: 920px;
     left: 1600px;
+    cursor: pointer;
   }
   
   .group-3 {
     top: 920px;
     left: 116px;
+    cursor: pointer;
   }
   
   .vector-2 {
     top: 920px;
     left: 1750px;
+    cursor: pointer;
   }
   
   .group-4 {
     top: 920px;
+    cursor: pointer;
   }
   

@@ -121,6 +121,7 @@
     height: 150px;
     top: 920px;
     left: 1600px;
+    cursor: pointer;
   }
   
   .group-2 {
@@ -129,6 +130,7 @@
     height: 150px;
     top: 920px;
     left: 116px;
+    cursor: pointer;
   }
   
   .frame {
@@ -144,12 +146,14 @@
     width: 150px;
     height: 150px;
     top: 920px;
+    cursor: pointer;
   }
   
   .vector-2 {
     position: absolute;
     width: 150px;
     height: 150px;
+    cursor: pointer;
     top: 920px;
     left: 1750px;
   }

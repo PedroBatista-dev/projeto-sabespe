@@ -108,6 +108,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
+    cursor: pointer;
     left: 1600px;
   }
   
@@ -117,6 +118,7 @@
     height: 150px;
     top: 920px;
     left: 116px;
+    cursor: pointer;
   }
   
   .frame {
@@ -132,6 +134,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
+    cursor: pointer;
   }
   
   ::ng-deep .textDataLabel {

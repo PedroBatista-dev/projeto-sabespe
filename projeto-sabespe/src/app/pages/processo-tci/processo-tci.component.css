@@ -108,6 +108,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
+    cursor: pointer;
     left: 1600px;
   }
   
@@ -116,6 +117,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
+    cursor: pointer;
     left: 116px;
   }
   
@@ -131,6 +133,7 @@
     position: absolute;
     width: 150px;
     height: 150px;
+    cursor: pointer;
     top: 920px;
   }
   
@@ -140,6 +143,7 @@
     height: 150px;
     top: 920px;
     left: 1750px;
+    cursor: pointer;
   }
   
   ::ng-deep .textDataLabel {
