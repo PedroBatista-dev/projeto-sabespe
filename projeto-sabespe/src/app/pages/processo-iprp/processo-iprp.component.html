@@ -5,6 +5,22 @@
   </div>
   <img class="ativo" src="assets/grafismo-2.png" />
   <div class="line line-1" style="display: block;">
+    <ngx-charts-bar-vertical-2d
+      [view]="[1800,500]"
+      [results]="data"
+      [showDataLabel]="true"
+      [xAxis]="true"
+      [customColors]="customColors"
+      [showGridLines]="false"
+      [roundEdges]="false"
+      [dataLabelFormatting]="formatDataLabel"
+      [legend]="true"
+      [noBarWhenZero]="false"
+      [legendTitle]="''"
+      [legendPosition]="legendPosition">
+    </ngx-charts-bar-vertical-2d>
+  </div>  
+  <!-- <div class="line line-1" style="display: block;">
     <ngx-charts-bar-vertical
       [view]="[170,500]"
       [results]="janeiro"
@@ -171,7 +187,7 @@
       [showXAxisLabel]="true"
       [dataLabelFormatting]="formatDataLabel">
     </ngx-charts-bar-vertical>
-  </div>  
+  </div>   -->
   <img class="img" src="assets/gif/ICONES_seta-esq.gif" [routerLink]="['/processo-igq']" />
   <img class="group-2" src="assets/gif/ICONES_X.gif" [routerLink]="['/inicio']" />
   <img class="frame" src="assets/linha-colorida.png" />

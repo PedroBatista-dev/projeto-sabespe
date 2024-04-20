@@ -150,8 +150,24 @@
     transform: none !important; /* Remove a transformação diagonal */
     text-anchor: middle; /* Alinha o texto horizontalmente no centro */
     font-weight: bold; /* Aplica o estilo negrito aos rótulos de eixo X */
+    font-size: 18px !important;
   }
 
   ::ng-deep .ng-star-inserted {
+    font-size: 18px;
     font-weight: bold; /* Aplica o estilo negrito aos rótulos de dados */
+  }
+
+  ::ng-deep .gridpanel {
+    fill: none !important; /* Define o preenchimento como "nenhum" para remover completamente o retângulo */
+  }
+  
+  ::ng-deep .legend-labels {
+    background: none !important;
+    margin-top: 15px !important; 
+  }
+
+  ::ng-deep .legend-label-text {
+    color: black !important; 
+    font-size: 18px !important;
   }
