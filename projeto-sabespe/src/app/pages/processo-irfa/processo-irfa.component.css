@@ -53,54 +53,7 @@
   position: absolute;
   top: 350px;
   object-fit: cover;
-}
-
-.line-1 {
   left: 50px;
-}
-
-.line-2 {
-  left: 200px;
-}
-
-.line-3 {
-  left: 350px;
-}
-
-.line-4 {
-  left: 500px;
-}
-
-.line-5 {
-  left: 650px;
-}
-
-.line-6 {
-  left: 800px;
-}
-
-.line-7 {
-  left: 950px;
-}
-
-.line-8 {
-  left: 1100px;
-}
-
-.line-9 {
-  left: 1250px;
-}
-
-.line-10 {
-  left: 1400px;
-}
-
-.line-11 {
-  left: 1550px;
-}
-
-.line-12 {
-  left: 1700px;
 }
 
 .img {
@@ -175,18 +128,9 @@
 ::ng-deep .legend-labels {
   background: none !important;
   margin-top: 15px !important; 
-  /* display: flex !important;
-  justify-content: center !important;
-  margin: 0 auto !important; */
 }
 
 ::ng-deep .legend-label-text {
   color: black !important; 
   font-size: 18px !important;
-}
-
-::ng-deep .charts-legend {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
 }
