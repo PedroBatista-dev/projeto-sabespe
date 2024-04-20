@@ -48,7 +48,7 @@ export class ProcessoTCFLComponent {
           },
           {
             name: "Realizado",
-            value: this.excelData[0]["Realizado"]
+            value: this.excelData[0]["Realizado"] || 0
           },
         ];
 

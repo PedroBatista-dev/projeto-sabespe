@@ -43,7 +43,7 @@ export class ProcessoIANCComponent {
               },
               {
                 name: "Realizado",
-                value: this.excelData[60]["Realizado"]
+                value: this.excelData[60]["Realizado"] || 0
               },
             ]
           },

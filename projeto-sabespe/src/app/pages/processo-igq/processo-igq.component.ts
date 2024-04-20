@@ -43,7 +43,7 @@ export class ProcessoIGQComponent {
               },
               {
                 name: "Realizado",
-                value: this.excelData[321]["Realizado"]
+                value: this.excelData[321]["Realizado"] || 0
               },
             ]
           },

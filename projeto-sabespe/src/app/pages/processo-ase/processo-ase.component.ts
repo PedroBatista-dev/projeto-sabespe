@@ -43,7 +43,7 @@ export class ProcessoASEComponent {
               },
               {
                 name: "Realizado",
-                value: this.excelData[160]["Realizado"]
+                value: this.excelData[160]["Realizado"] || 0
               },
             ]
           },

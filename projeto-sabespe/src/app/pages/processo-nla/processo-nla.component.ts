@@ -48,7 +48,7 @@ export class ProcessoNLAComponent {
           },
           {
             name: "Realizado",
-            value: this.excelData[24]["Realizado"]
+            value: this.excelData[24]["Realizado"] || 0
           },
         ];
 

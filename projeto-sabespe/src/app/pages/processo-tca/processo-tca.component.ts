@@ -48,7 +48,7 @@ export class ProcessoTCAComponent {
           },
           {
             name: "Realizado",
-            value: this.excelData[124]["Realizado"]
+            value: this.excelData[124]["Realizado"] || 0
           },
         ];
 

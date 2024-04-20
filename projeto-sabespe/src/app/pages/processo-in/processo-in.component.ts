@@ -48,7 +48,7 @@ export class ProcessoINComponent {
           },
           {
             name: "Realizado",
-            value: this.excelData[172]["Realizado"]
+            value: this.excelData[172]["Realizado"] || 0
           },
         ];
 

@@ -43,7 +43,7 @@ export class ProcessoIACTComponent {
               },
               {
                 name: "Realizado",
-                value: this.excelData[196]["Realizado"]
+                value: this.excelData[196]["Realizado"] || 0
               },
             ]
           },

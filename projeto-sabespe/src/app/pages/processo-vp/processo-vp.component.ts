@@ -48,7 +48,7 @@ export class ProcessoVPComponent {
           },
           {
             name: "Realizado",
-            value: this.excelData[72]["Realizado"]
+            value: this.excelData[72]["Realizado"] || 0
           },
         ];
 

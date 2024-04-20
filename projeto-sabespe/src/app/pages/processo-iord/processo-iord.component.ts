@@ -43,7 +43,7 @@ export class ProcessoIORDComponent {
               },
               {
                 name: "Realizado",
-                value: this.excelData[309]["Realizado"]
+                value: this.excelData[309]["Realizado"] || 0
               },
             ]
           },

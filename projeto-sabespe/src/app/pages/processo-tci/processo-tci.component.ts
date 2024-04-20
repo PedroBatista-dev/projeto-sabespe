@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { LegendPosition } from '@swimlane/ngx-charts';
 import * as XLSX from 'xlsx';
 
 @Component({
@@ -9,25 +10,16 @@ import * as XLSX from 'xlsx';
 })
 export class ProcessoTCIComponent {
 
+  legendPosition: LegendPosition = LegendPosition.Below;
+
   excelData = [];
 
   customColors = [
-    { name: 'Previsto', value: '#12D0FF' },
-    { name: 'Realizado', value: '#FFC601' },
+    { name: 'Previsto', value: '#FFC601' },
+    { name: 'Realizado', value: '#12D0FF' },
   ]
-
-  janeiro: { name: string, value: number }[] = [];
-  fevereiro: { name: string, value: number }[] = [];
-  marco: { name: string, value: number }[] = [];
-  abril: { name: string, value: number }[] = [];
-  maio: { name: string, value: number }[] = [];
-  junho: { name: string, value: number }[] = [];
-  julho: { name: string, value: number }[] = [];
-  agosto: { name: string, value: number }[] = [];
-  setembro: { name: string, value: number }[] = [];
-  outubro: { name: string, value: number }[] = [];
-  novembro: { name: string, value: number }[] = [];
-  dezembro: { name: string, value: number }[] = [];
+  
+  data: { name: string, series: any[] }[] = [];
 
   constructor(private http: HttpClient) {}
 
@@ -41,137 +33,164 @@ export class ProcessoTCIComponent {
         
         console.log(this.excelData);
 
-        this.janeiro = [
+        this.data = [
           {
-            name: "Previsto",
-            value: this.excelData[112]["Previsto"] || 0
+            name: "Janeiro",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[112]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[112]["Realizado"] || 0
+              },
+            ]
           },
           {
-            name: "Realizado",
-            value: this.excelData[112]["Realizado"]
-          },
-        ];
-
-        this.fevereiro = [
-          {
-            name: "Previsto",
-            value: this.excelData[113]["Previsto"] || 0
-          },
-          {
-            name: "Realizado",
-            value: this.excelData[113]["Realizado"] || 0
-          },
-        ];
-
-        this.marco = [
-          {
-            name: "Previsto",
-            value: this.excelData[114]["Previsto"] || 0
+            name: "Fevereiro",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[113]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[113]["Realizado"] || 0
+              },
+            ]
           },
           {
-            name: "Realizado",
-            value: this.excelData[114]["Realizado"] || 0
-          },
-        ];
-
-        this.abril = [
-          {
-            name: "Previsto",
-            value: this.excelData[115]["Previsto"] || 0
-          },
-          {
-            name: "Realizado",
-            value: this.excelData[115]["Realizado"] || 0
-          },
-        ];
-
-        this.maio = [
-          {
-            name: "Previsto",
-            value: this.excelData[116]["Previsto"] || 0
+            name: "Março",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[114]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[114]["Realizado"] || 0
+              },
+            ]
           },
           {
-            name: "Realizado",
-            value: this.excelData[116]["Realizado"] || 0
-          },
-        ];
-
-        this.junho = [
-          {
-            name: "Previsto",
-            value: this.excelData[117]["Previsto"] || 0
-          },
-          {
-            name: "Realizado",
-            value: this.excelData[117]["Realizado"] || 0
-          },
-        ];
-
-        this.julho = [
-          {
-            name: "Previsto",
-            value: this.excelData[118]["Previsto"] || 0
+            name: "Abril",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[115]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[115]["Realizado"] || 0
+              },
+            ]
           },
           {
-            name: "Realizado",
-            value: this.excelData[118]["Realizado"] || 0
-          },
-        ];
-
-        this.agosto = [
-          {
-            name: "Previsto",
-            value: this.excelData[119]["Previsto"] || 0
-          },
-          {
-            name: "Realizado",
-            value: this.excelData[119]["Realizado"] || 0
-          },
-        ];
-
-        this.setembro = [
-          {
-            name: "Previsto",
-            value: this.excelData[120]["Previsto"] || 0
+            name: "Maio",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[116]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[116]["Realizado"] || 0
+              },
+            ]
           },
           {
-            name: "Realizado",
-            value: this.excelData[120]["Realizado"] || 0
-          },
-        ];
-
-        this.outubro = [
-          {
-            name: "Previsto",
-            value: this.excelData[121]["Previsto"] || 0
-          },
-          {
-            name: "Realizado",
-            value: this.excelData[121]["Realizado"] || 0
-          },
-        ];
-
-        this.novembro = [
-          {
-            name: "Previsto",
-            value: this.excelData[122]["Previsto"] || 0
+            name: "Junho",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[117]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[117]["Realizado"] || 0
+              },
+            ]
           },
           {
-            name: "Realizado",
-            value: this.excelData[122]["Realizado"] || 0
+            name: "Julho",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[118]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[118]["Realizado"] || 0
+              },
+            ]
           },
-        ];
-
-        this.dezembro = [
           {
-            name: "Previsto",
-            value: this.excelData[123]["Previsto"] || 0
+            name: "Agosto",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[119]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[119]["Realizado"] || 0
+              },
+            ]
           },
           {
-            name: "Realizado",
-            value: this.excelData[123]["Realizado"] || 0
+            name: "Setembro",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[120]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[120]["Realizado"] || 0
+              },
+            ]
           },
-        ];        
+          {
+            name: "Outubro",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[121]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[121]["Realizado"] || 0
+              },
+            ]
+          },
+          {
+            name: "Novembro",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[122]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[122]["Realizado"] || 0
+              },
+            ]
+          },
+          {
+            name: "Dezembro",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[123]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[123]["Realizado"] || 0
+              },
+            ]
+          },
+        ]      
       });    
   }
 

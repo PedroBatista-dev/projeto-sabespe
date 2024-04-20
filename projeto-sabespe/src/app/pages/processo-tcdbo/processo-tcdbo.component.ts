@@ -48,7 +48,7 @@ export class ProcessoTCDBOComponent {
           },
           {
             name: "Realizado",
-            value: this.excelData[273]["Realizado"]
+            value: this.excelData[273]["Realizado"] || 0
           },
         ];
 

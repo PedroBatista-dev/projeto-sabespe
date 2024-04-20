@@ -43,7 +43,7 @@ export class ProcessoIRFAComponent {
               },
               {
                 name: "Realizado",
-                value: this.excelData[208]["Realizado"]
+                value: this.excelData[208]["Realizado"] || 0
               },
             ]
           },

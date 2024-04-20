@@ -43,7 +43,7 @@ export class ProcessoIPRPComponent {
               },
               {
                 name: "Realizado",
-                value: this.excelData[36]["Realizado"]
+                value: this.excelData[36]["Realizado"] || 0
               },
             ]
           },

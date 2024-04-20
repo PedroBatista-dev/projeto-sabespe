@@ -43,7 +43,7 @@ export class ProcessoIPDTComponent {
               },
               {
                 name: "Realizado",
-                value: this.excelData[100]["Realizado"]
+                value: this.excelData[100]["Realizado"] || 0
               },
             ]
           },
