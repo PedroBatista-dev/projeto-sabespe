@@ -22,20 +22,20 @@
     font-family: "Satoshi-Black", Helvetica;
     font-weight: 900;
     color: rgba(18, 208, 255, 1);
-    font-size: 50px;
+    font-size: 76px;
     letter-spacing: 0;
     line-height: normal;
   }
 
   .s-o-paulo {
     position: absolute;
-    top: 50px;
+    top: 80px;
     left: 0;
     mix-blend-mode: multiply;
     font-family: "Satoshi-Black", Helvetica;
     font-weight: 900;
     color: rgba(255, 198, 1, 1);
-    font-size: 30px;
+    font-size: 36px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -108,7 +108,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
-    left: 1600px;
+    left: 1050px;
     cursor: pointer;
   }
   
@@ -117,7 +117,16 @@
     width: 150px;
     height: 150px;
     top: 920px;
-    left: 116px;
+    left: 750px;
+    cursor: pointer;
+  }
+  
+  .group-4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 920px;
+    left: 900px;
     cursor: pointer;
   }
   
@@ -134,6 +143,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
+    left: 600px;
     cursor: pointer;
   }
   
@@ -142,7 +152,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
-    left: 1750px;
+    left: 1200px;
     cursor: pointer;
   }
   
@@ -150,8 +160,24 @@
     transform: none !important; /* Remove a transformação diagonal */
     text-anchor: middle; /* Alinha o texto horizontalmente no centro */
     font-weight: bold; /* Aplica o estilo negrito aos rótulos de eixo X */
+    font-size: 12px !important;
   }
 
   ::ng-deep .ng-star-inserted {
+    font-size: 18px;
     font-weight: bold; /* Aplica o estilo negrito aos rótulos de dados */
+  }
+
+  ::ng-deep .gridpanel {
+    fill: none !important; /* Define o preenchimento como "nenhum" para remover completamente o retângulo */
+  }
+  
+  ::ng-deep .legend-labels {
+    background: none !important;
+    margin-top: 15px !important; 
+  }
+
+  ::ng-deep .legend-label-text {
+    color: black !important; 
+    font-size: 18px !important;
   }

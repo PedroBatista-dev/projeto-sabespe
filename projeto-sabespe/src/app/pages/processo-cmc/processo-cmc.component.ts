@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { LegendPosition } from '@swimlane/ngx-charts';
 import * as XLSX from 'xlsx';
 
 @Component({
@@ -9,17 +10,16 @@ import * as XLSX from 'xlsx';
 })
 export class ProcessoCMCComponent {
 
+  legendPosition: LegendPosition = LegendPosition.Below;
+
   excelData = [];
 
   customColors = [
-    { name: 'Previsto', value: '#12D0FF' },
-    { name: 'Realizado', value: '#FFC601' },
+    { name: 'Previsto', value: '#FFC601' },
+    { name: 'Realizado', value: '#12D0FF' },
   ]
-
-  marco: { name: string, value: number }[] = [];
-  junho: { name: string, value: number }[] = [];
-  setembro: { name: string, value: number }[] = [];
-  dezembro: { name: string, value: number }[] = [];
+  
+  data: { name: string, series: any[] }[] = [];
 
   constructor(private http: HttpClient) {}
 
@@ -33,49 +33,60 @@ export class ProcessoCMCComponent {
         
         console.log(this.excelData);
 
-        this.marco = [
+        this.data = [
           {
-            name: "Previsto",
-            value: this.excelData[84]["Previsto"] || 0
+            name: "Março",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[84]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[84]["Realizado"] || 0
+              },
+            ]
           },
           {
-            name: "Realizado",
-            value: this.excelData[84]["Realizado"] || 0
-          },
-        ];
-
-        this.junho = [
-          {
-            name: "Previsto",
-            value: this.excelData[85]["Previsto"] || 0
-          },
-          {
-            name: "Realizado",
-            value: this.excelData[85]["Realizado"] || 0
-          },
-        ];
-
-        this.setembro = [
-          {
-            name: "Previsto",
-            value: this.excelData[86]["Previsto"] || 0
+            name: "Junho",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[85]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[85]["Realizado"] || 0
+              },
+            ]
           },
           {
-            name: "Realizado",
-            value: this.excelData[86]["Realizado"] || 0
+            name: "Setembro",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[86]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[86]["Realizado"] || 0
+              },
+            ]
           },
-        ];
-
-        this.dezembro = [
           {
-            name: "Previsto",
-            value: this.excelData[87]["Previsto"] || 0
+            name: "Dezembro",
+            series: [
+              {
+                name: "Previsto",
+                value: this.excelData[87]["Previsto"] || 0
+              },
+              {
+                name: "Realizado",
+                value: this.excelData[87]["Realizado"] || 0
+              },
+            ]
           },
-          {
-            name: "Realizado",
-            value: this.excelData[87]["Realizado"] || 0
-          },
-        ];        
+        ]    
       });    
   }
 
