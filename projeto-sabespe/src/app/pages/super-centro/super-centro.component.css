@@ -15,7 +15,7 @@
     font-family: "Satoshi-Black", Helvetica;
     font-weight: 900;
     color: rgba(18, 208, 255, 1);
-    font-size: 64px;
+    font-size: 76px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -29,7 +29,7 @@
     font-family: "Satoshi-Black", Helvetica;
     font-weight: 900;
     color: rgba(255, 198, 1, 1);
-    font-size: 64px;
+    font-size: 76px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -67,13 +67,14 @@
     font-family: "Satoshi-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
-    font-size: 26px;
+    font-size: 32px;
     letter-spacing: 0;
   }
   
   .span {
     font-family: "Satoshi-Bold", Helvetica;
     font-weight: 700;
+    font-size: 32px;
   }
   
   .mask-group {
@@ -161,7 +162,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
-    left: 1600px;
+    left: 1050px;
     cursor: pointer;
   }
   
@@ -170,7 +171,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
-    left: 116px;
+    left: 750px;
     cursor: pointer;
   }
   
@@ -178,8 +179,8 @@
     position: absolute;
     width: 119px;
     height: 125px;
-    top: 48px;
-    left: 1761px;
+    top: 920px;
+    left: 900px;
     cursor: pointer;
   }
   
@@ -196,6 +197,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
+    left: 600px;
     cursor: pointer;
   }
   
@@ -204,7 +206,15 @@
     width: 150px;
     height: 150px;
     top: 920px;
-    left: 1750px;
+    left: 1200px;
     cursor: pointer;
+  }
+
+  .grafismo {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    top: 0px;
+    left: 1220px;
   }
   

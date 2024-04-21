@@ -69,17 +69,17 @@
   
   .frame {
     display: flex;
-    width: 201px;
-    height: 59px;
+    width: 220px;
+    height: 70px;
     align-items: center;
     justify-content: center;
     gap: 10px;
     padding: 10px 33px;
     position: absolute;
-    top: 59px;
+    top: 20px;
     left: 0;
     background-color: rgba(255, 137, 1, 1);
-    border-radius: 30px;
+    border-radius: 50px;
     cursor: pointer;
   }
   
@@ -91,15 +91,15 @@
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 36px;
     letter-spacing: 0;
     line-height: normal;
   }
   
   .polo-tamanduate-wrapper {
     display: flex;
-    width: 284px;
-    height: 59px;
+    width: 320px;
+    height: 70px;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -108,7 +108,7 @@
     top: 241px;
     left: 1139px;
     background-color: rgba(18, 208, 255, 1);
-    border-radius: 30px;
+    border-radius: 50px;
     cursor: pointer;
   }
   
@@ -118,31 +118,31 @@
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 36px;
     letter-spacing: 0;
     line-height: normal;
   }
   
   .div-wrapper {
     display: flex;
-    width: 269px;
-    height: 59px;
+    width: 320px;
+    height: 70px;
     align-items: center;
     justify-content: center;
     gap: 10px;
     padding: 10px 33px;
     position: absolute;
-    top: 59px;
+    top: 40px;
     left: 722px;
     background-color: rgba(255, 198, 1, 1);
-    border-radius: 30px;
+    border-radius: 50px;
     cursor: pointer;
   }
   
   .frame-2 {
     display: flex;
     width: 214px;
-    height: 59px;
+    height: 70px;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -151,14 +151,14 @@
     top: 0;
     left: 399px;
     background-color: rgba(250, 177, 128, 1);
-    border-radius: 30px;
+    border-radius: 50px;
     cursor: pointer;
   }
   
   .frame-3 {
     display: flex;
-    width: 213px;
-    height: 59px;
+    width: 230px;
+    height: 70px;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -167,7 +167,7 @@
     top: 632px;
     left: 337px;
     background-color: rgba(18, 161, 1, 1);
-    border-radius: 30px;
+    border-radius: 50px;
     cursor: pointer;
   }
   
@@ -179,7 +179,7 @@
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 36px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -189,7 +189,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
-    left: 1600px;
+    left: 1050px;
     cursor: pointer;
   }
   
@@ -197,7 +197,7 @@
     width: 150px;
     height: 150px;
     position: absolute;
-    left: 116px;
+    left: 750px;
     top: 920px;
     cursor: pointer;
   }
@@ -215,6 +215,7 @@
     height: 150px;
     position: absolute;
     top: 920px;
+    left: 600px;
     cursor: pointer;
   }
   
@@ -223,7 +224,15 @@
     width: 150px;
     height: 150px;
     top: 920px;
-    left: 1750px;
+    left: 1200px;
     cursor: pointer;
+  }
+
+  .grafismo {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    top: 0px;
+    left: 1220px;
   }
   
