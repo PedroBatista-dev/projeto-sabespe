@@ -31,7 +31,7 @@
     font-family: "Satoshi-Black", Helvetica;
     font-weight: 900;
     color: rgba(18, 208, 255, 1);
-    font-size: 120px;
+    font-size: 50px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -39,13 +39,27 @@
   .sabia {
     position: absolute;
     width: 435px;
-    top: 373px;
+    top: 325px;
     left: 254px;
     mix-blend-mode: multiply;
     font-family: "Satoshi-Black", Helvetica;
     font-weight: 900;
     color: rgba(255, 198, 1, 1);
-    font-size: 120px;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .polo {
+    position: absolute;
+    width: 535px;
+    top: 390px;
+    left: 254px;
+    mix-blend-mode: multiply;
+    font-family: "Satoshi-Black", Helvetica;
+    font-weight: 900;
+    color: rgba(255, 198, 1, 1);
+    font-size: 80px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -54,7 +68,7 @@
     font-family: "Satoshi-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
-    font-size: 26px;
+    font-size: 32px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -111,7 +125,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
-    left: 1600px;
+    left: 1050px;
     cursor: pointer;
   }
   
@@ -120,7 +134,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
-    left: 116px;
+    left: 750px;
     cursor: pointer;
   }
   
@@ -137,6 +151,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
+    left: 600px;
     cursor: pointer;
   }
   
@@ -145,7 +160,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
-    left: 1750px;
+    left: 1200px;
     cursor: pointer;
   }
 
@@ -153,7 +168,7 @@
     max-height: 300px; /* Defina a altura máxima desejada */
     overflow-y: auto; /* Isso permite a rolagem vertical quando o conteúdo excede a altura máxima */
     position: absolute;
-    width: 591px;
+    width: 800px;
     top: 537px;
     left: 254px;
   }
