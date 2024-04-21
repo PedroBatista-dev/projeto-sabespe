@@ -1,132 +1,143 @@
 .div {
-    background-color: #f9f9f9;
-    overflow: hidden;
-    width: 1920px;
-    height: 1080px;
-    position: relative;
-  }
-  
-  .overlap-group {
-    position: absolute;
-    width: 630px;
-    height: 103px;
-    top: 45px;
-    left: 58px;
-  }
-  
-  .metas-contratuais {
-    position: absolute;
-    top: 0;
-    left: 0;
-    mix-blend-mode: multiply;
-    font-family: "Satoshi-Black", Helvetica;
-    font-weight: 900;
-    color: rgba(18, 208, 255, 1);
-    font-size: 50px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .s-o-paulo {
-    position: absolute;
-    top: 35px;
-    left: 0;
-    mix-blend-mode: multiply;
-    font-family: "Satoshi-Black", Helvetica;
-    font-weight: 900;
-    color: rgba(255, 198, 1, 1);
-    font-size: 50px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .popula-o-a {
-    position: absolute;
-    top: 147px;
-    left: 58px;
-    font-family: "Satoshi-Regular", Helvetica;
-    font-weight: 400;
-    color: rgba(18, 144, 128, 1);
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .ativo {
-    position: absolute;
-    width: 486px;
-    height: 240px;
-    top: 0;
-    left: 1434px;
-    object-fit: cover;
-  }
-  
-  .text-wrapper {
-    position: absolute;
-    top: 263px;
-    left: 944px;
-    font-family: "Satoshi-Bold", Helvetica;
-    font-weight: 700;
-    color: #000000;
-    font-size: 28px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .line {
-    position: absolute;
-    top: 350px;
-    left: 700px;
-    object-fit: cover;
-  }
-  
-  .line-3 {
-    position: absolute;
-    top: 350px;
-    left: 1000px;
-    object-fit: cover;
-  }
-  
-  .img {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    top: 920px;
-    left: 1600px;
-    cursor: pointer;
-  }
-  
-  .group-2 {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    top: 920px;
-    left: 116px;
-    cursor: pointer;
-  }
-  
-  .frame {
-    position: absolute;
-    width: 1920px;
-    height: 18px;
-    top: 1062px;
-    left: 0;
-  }
-  
-  .group-3 {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    top: 920px;
-    cursor: pointer;
-  }
-  
-  ::ng-deep .textDataLabel {
-    transform: none !important; /* Remove a transformação diagonal */
-    text-anchor: middle; /* Alinha o texto horizontalmente no centro */
-    font-weight: bold; /* Aplica o estilo negrito aos rótulos de eixo X */
-  }
+  background-color: #f9f9f9;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
 
-  ::ng-deep .ng-star-inserted {
-    font-weight: bold; /* Aplica o estilo negrito aos rótulos de dados */
-  }
+.overlap-group {
+  position: absolute;
+  width: 630px;
+  height: 103px;
+  top: 45px;
+  left: 58px;
+}
+
+.metas-contratuais {
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+  font-family: "Satoshi-Black", Helvetica;
+  font-weight: 900;
+  color: rgba(18, 208, 255, 1);
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.s-o-paulo {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  mix-blend-mode: multiply;
+  font-family: "Satoshi-Black", Helvetica;
+  font-weight: 900;
+  color: rgba(255, 198, 1, 1);
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.popula-o-a {
+  position: absolute;
+  top: 147px;
+  left: 58px;
+  font-family: "Satoshi-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ativo {
+  position: absolute;
+  width: 486px;
+  height: 240px;
+  top: 0;
+  left: 1434px;
+  object-fit: cover;
+}
+
+.text-wrapper {
+  position: absolute;
+  top: 263px;
+  left: 944px;
+  font-family: "Satoshi-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.line {
+  position: absolute;
+  top: 350px;
+  left: 700px;
+  object-fit: cover;
+}
+
+.line-3 {
+  position: absolute;
+  top: 350px;
+  left: 1000px;
+  object-fit: cover;
+}
+
+.img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 1050px;
+  cursor: pointer;
+}
+
+.group-2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 750px;
+  cursor: pointer;
+}
+
+.frame {
+  position: absolute;
+  width: 1920px;
+  height: 18px;
+  top: 1062px;
+  left: 0;
+}
+
+.group-3 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 600px;
+  cursor: pointer;
+}
+
+.vector-2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 920px;
+  left: 1200px;
+  cursor: pointer;
+}
+
+::ng-deep .textDataLabel {
+  transform: none !important; /* Remove a transformação diagonal */
+  text-anchor: middle; /* Alinha o texto horizontalmente no centro */
+  font-weight: bold; /* Aplica o estilo negrito aos rótulos de eixo X */
+  font-size: 16px !important;
+}
+
+::ng-deep .ng-star-inserted {
+  font-weight: bold; /* Aplica o estilo negrito aos rótulos de dados */
+  font-size: 16px !important;
+}

@@ -10,14 +10,14 @@
   width: 150px;
   height: 150px;
   top: 920px;
-  left: 1600px;
+  left: 1050px;
   cursor: pointer;
 }
 
 .img {
   width: 150px;
   height: 150px;
-  left: 116px;
+  left: 750px;
   position: absolute;
   top: 920px;
   cursor: pointer;
@@ -36,6 +36,7 @@
   height: 150px;
   position: absolute;
   top: 920px;
+  left: 600px;
   cursor: pointer;
 }
 
@@ -44,7 +45,7 @@
   width: 150px;
   height: 150px;
   top: 920px;
-  left: 1750px;
+  left: 1200px;
   cursor: pointer;
 }
 

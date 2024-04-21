@@ -23,8 +23,8 @@
 
 .grafismo {
   position: absolute;
-  width: 596px;
-  height: 550px;
+  width: 520px;
+  height: 500px;
   top: 357px;
   left: 325px;
   object-fit: cover;
@@ -52,7 +52,7 @@
   width: 150px;
   height: 150px;
   top: 920px;
-  left: 1750px;
+  left: 1200px;
   cursor: pointer;
 }
 
@@ -61,32 +61,32 @@
   width: 150px;
   height: 150px;
   top: 920px;
-  left: 1600px;
+  left: 1050px;
   cursor: pointer;
 }
 
 .sao {
   position: absolute;
   top: 145px;
-  left: 288px;
+  left: 100px;
   mix-blend-mode: multiply;
   font-family: "Satoshi-Black", Helvetica;
   font-weight: 900;
   color: rgba(18, 208, 255, 1);
-  font-size: 80px;
+  font-size: 120px;
   letter-spacing: 0;
   line-height: normal;
 }
 
 .paulo {
   position: absolute;
-  top: 196px;
-  left: 288px;
+  top: 220px;
+  left: 100px;
   mix-blend-mode: multiply;
   font-family: "Satoshi-Black", Helvetica;
   font-weight: 900;
   color: rgba(255, 198, 1, 1);
-  font-size: 80px;
+  font-size: 120px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -96,7 +96,7 @@
   width: 150px;
   height: 150px;
   top: 920px;
-  left: 116px;
+  left: 750px;
   cursor: pointer;
 }
 
@@ -104,6 +104,15 @@
   position: absolute;
   width: 150px;
   height: 150px;
-  cursor: pointer;
   top: 920px;
+  left: 600px;
+  cursor: pointer;
+}
+
+.frame-4 {
+  position: absolute;
+  width: 1920px;
+  height: 18px;
+  top: 1062px;
+  left: 0;
 }

@@ -12,8 +12,8 @@ export class MetasMaua3Component {
   excelData = [];
 
   customColors = [
-    { name: 'Previsto', value: '#12D0FF' },
-    { name: 'Realizado', value: '#FFC601' },
+    { name: 'Previsto', value: '#FFC601' },
+    { name: 'Realizado', value: '#12D0FF' },
   ]
 
   indCobAgua: { name: string, value: number }[] = [];

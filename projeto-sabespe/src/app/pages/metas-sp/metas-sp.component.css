@@ -46,8 +46,7 @@
     left: 58px;
     font-family: "Satoshi-Regular", Helvetica;
     font-weight: 400;
-    color: rgba(18, 144, 128, 1);
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -68,7 +67,7 @@
     font-family: "Satoshi-Bold", Helvetica;
     font-weight: 700;
     color: #000000;
-    font-size: 28px;
+    font-size: 42px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -120,7 +119,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
-    left: 1600px;
+    left: 1050px;
     cursor: pointer;
   }
   
@@ -129,7 +128,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
-    left: 116px;
+    left: 750px;
     cursor: pointer;
   }
   
@@ -146,6 +145,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
+    left: 600px;
     cursor: pointer;
   }
   
@@ -154,7 +154,7 @@
     width: 150px;
     height: 150px;
     top: 920px;
-    left: 1750px;
+    left: 1200px;
     cursor: pointer;
   }
   
@@ -162,8 +162,10 @@
     transform: none !important; /* Remove a transformação diagonal */
     text-anchor: middle; /* Alinha o texto horizontalmente no centro */
     font-weight: bold; /* Aplica o estilo negrito aos rótulos de eixo X */
+    font-size: 16px !important;
   }
 
   ::ng-deep .ng-star-inserted {
     font-weight: bold; /* Aplica o estilo negrito aos rótulos de dados */
+    font-size: 16px !important;
   }
