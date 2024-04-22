@@ -107,6 +107,6 @@ export class MetasSP3Component {
     return `${value} %`
   }
   formatDataLabelLitro(value: number): string {
-    return `${value} l.l/d`
+    return `${value} L/l.d`
   }
 }

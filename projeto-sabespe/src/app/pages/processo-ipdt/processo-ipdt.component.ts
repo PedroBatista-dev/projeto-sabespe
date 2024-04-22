@@ -199,6 +199,6 @@ export class ProcessoIPDTComponent {
   }
 
   formatDataLabel(value: number): string {
-    return `${value}%`
+    return `${value} L/l.d`
   }
 }

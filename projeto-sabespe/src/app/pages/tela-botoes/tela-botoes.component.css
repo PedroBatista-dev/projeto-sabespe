@@ -131,27 +131,27 @@
 }
 
 .frame-13 {
-  width: 392px;
+  width: 338px;
   top: 479px;
   left: 60px;
 }
 
 .frame-14 {
-  width: 404px;
+  width: 334px;
   top: 479px;
-  left: 472px;
+  left: 412px;
 }
 
 .frame-15 {
-  width: 390px;
+  width: 320px;
   top: 479px;
-  left: 896px;
+  left: 762px;
 }
 
 .frame-16 {
-  width: 550px;
+  width: 450px;
   top: 479px;
-  left: 1310px;
+  left: 1410px;
 }
 
 .frame-17 {
@@ -230,4 +230,10 @@
   width: 435px;
   top: 779px;
   left: 1425px;
+}
+
+.frame-30 {  
+  width: 300px;
+  top: 479px;
+  left: 1096px;
 }
