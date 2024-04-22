@@ -35,6 +35,7 @@
   font-family: "Satoshi-Black", Helvetica;
   font-weight: 900;
   color: rgba(255, 198, 1, 1);
+  width: 1300px;
   font-size: 36px;
   letter-spacing: 0;
   line-height: normal;
@@ -46,6 +47,14 @@
   height: 240px;
   top: 0;
   left: 1434px;
+  object-fit: cover;
+}
+
+.seta {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  top: 600px;
   object-fit: cover;
 }
 

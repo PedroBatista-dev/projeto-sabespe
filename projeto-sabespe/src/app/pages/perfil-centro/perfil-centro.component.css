@@ -14,7 +14,7 @@
     mix-blend-mode: multiply;
     font-family: "Satoshi-Black", Helvetica;
     font-weight: 900;
-    font-size: 36px;
+    font-size: 50px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -26,7 +26,7 @@
   }
   
   .centro-oc {
-    top: 75px;
+    top: 80px;
     left: 52px;
     color: rgba(255, 198, 1, 1);    
   }
@@ -80,51 +80,51 @@
   }
   
   .ativo {
-    width: 152px;
+    width: 180px;
     top: 454px;
-    left: 222px;
+    left: 165px;
   }
   
   .ativo-2 {
-    top: 759px;
-    left: 1120px;
-    width: 152px;
+    top: 670px;
+    left: 1180px;
+    width: 180px;
   }
   
   .ativo-3 {
-    top: 242px;
-    left: 519px;
-    width: 152px;
+    top: 205px;
+    left: 430px;
+    width: 180px;
   }
   
   .ativo-4 {
-    top: 687px;
-    left: 1439px;
-    width: 152px;
+    top: 600px;
+    left: 1525px;
+    width: 180px;
   }
   
   .ativo-5 {
-    top: 732px;
-    left: 504px;
-    width: 150px;
+    top: 650px;
+    left: 430px;
+    width: 180px;
   }
   
   .ativo-6 {
-    top: 433px;
-    left: 1591px;
-    width: 150px;
+    top: 410px;
+    left: 1670px;
+    width: 180px;
   }
   
   .ativo-7 {
-    top: 218px;
-    left: 874px;
-    width: 150px;
+    top: 135px;
+    left: 870px;
+    width: 180px;
   }
   
   .ativo-8 {
-    width: 151px;
-    top: 292px;
-    left: 1164px;
+    width: 180px;
+    top: 280px;
+    left: 1230px;
   }
 
   .text-geral {
@@ -136,138 +136,146 @@
   }
   
   .text-wrapper {
-    top: 273px;
-    left: 900px;   
-    color: #ffffff; 
-    font-size: 26px;
+    top: 195px;
+    left: 875px; 
+    color: #ffffff;
+    font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-2 {
-    top: 345px;
-    left: 1190px;
-    color: #ffffff; 
-    font-size: 26px;
+    top: 340px;
+    left: 1235px;
+    color: #ffffff;
+    font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-3 {
-    top: 488px;
-    left: 1614px;
-    color: #ffffff; 
-    font-size: 26px;
+    top: 470px;
+    left: 1675px;
+    color: #ffffff;
+    font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-4 {
-    top: 298px;
-    left: 544px;
-    color: #ffffff; 
-    font-size: 26px;
+    top: 275px;
+    left: 435px;
+    color: #ffffff;
+    font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-5 {
-    top: 509px;
-    left: 246px;
-    color: #ffffff; 
-    font-size: 26px;
+    top: 515px;
+    left: 170px;
+    color: #ffffff;
+    font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-6 {
-    top: 782px;
-    left: 529px;
-    color: #ffffff; 
-    font-size: 26px;
+    top: 715px;
+    left: 435px;
+    color: #ffffff;
+    font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-8 {
-    top: 812px;
-    left: 1147px;
-    color: #ffffff; 
-    font-size: 26px;
+    top: 730px;
+    left: 1180px;
+    color: #ffffff;
+    font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-9 {
-    top: 745px;
-    left: 1465px;
-    color: #ffffff; 
-    font-size: 26px;
+    top: 660px;
+    left: 1530px;
+    color: #ffffff;
+    font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-10 {
-    top: 398px;
-    left: 246px;
-    width: 100px;
-    color: #000000; 
-    font-size: 18px;
+    top: 380px;
+    left: 185px;
+    width: 140px;
+    color: #000000;
+    font-size: 24px;
   }
   
   .text-wrapper-11 {
-    top: 230px;
-    left: 1160px;
-    width: 200px;
-    color: #000000; 
-    font-size: 18px;
+    top: 210px;
+    left: 1180px;
+    width: 270px;
+    color: #000000;
+    font-size: 24px;
   }
   
   .text-wrapper-12 {
-    top: 399px;
-    left: 1589px;
-    color: #000000; 
-    font-size: 18px;
+    top: 375px;
+    left: 1640px;
+    color: #000000;
+    font-size: 24px;
   }
   
   .text-wrapper-13 {
-    top: 160px;
+    top: 65px;
     width: 160px;
-    left: 870px;
-    color: #000000; 
-    font-size: 18px;
+    left: 880px;
+    color: #000000;
+    font-size: 24px;
   }
   
   .ellipse-wrapper {
-    width: 397px;
-    height: 396px;
-    top: 412px;
+    width: 390px;
+    height: 390px;
+    top: 350px;
     left: 745px;
     background-size: 100% 100%;
   }
   
   .text-wrapper-14 {
-    top: 180px;
-    left: 542px;
-    width: 110px;
-    color: #000000; 
-    font-size: 18px;
+    top: 130px;
+    left: 450px;
+    width: 160px;
+    color: #000000;
+    font-size: 24px;
   }
   
   .text-wrapper-15 {
-    top: 848px;
-    left: 1450px;
-    width: 138px;
-    color: #000000; 
-    font-size: 18px;
+    top: 770px;
+    left: 1520px;
+    width: 180px;
+    color: #000000;
+    font-size: 24px;
   }
   
   .text-wrapper-16 {
-    width: 111px;
-    top: 891px;
-    left: 519px;
-    color: #000000; 
-    font-size: 18px;
+    width: 140px;
+    top: 825px;
+    left: 450px;
+    color: #000000;
+    font-size: 24px;
   }
   
   .group-2 {
     width: 119px;
     height: 125px;
-    top: 48px;
-    left: 1761px;
+    top: 920px;
+    left: 900px;
     cursor: pointer;
   }
   
   .text-wrapper-17 {
-    top: 924px;
-    left: 1130px;
-    width: 138px;
+    top: 840px;
+    left: 1165px;
+    width: 200px;
     color: #000000; 
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .botao {
@@ -277,24 +285,33 @@
   
   .vector {    
     top: 920px;
-    left: 1600px;
+    left: 1050px;
     cursor: pointer;
   }
   
   .group-3 {
     top: 920px;
-    left: 116px;
+    left: 750px;
     cursor: pointer;
   }
   
   .vector-2 {
     top: 920px;
-    left: 1750px;
+    left: 1200px;
     cursor: pointer;
   }
   
   .group-4 {
     top: 920px;
+    left: 600px;
     cursor: pointer;
+  }
+
+  .frame-4 {
+    position: absolute;
+    width: 1920px;
+    height: 18px;
+    top: 1062px;
+    left: 0;
   }
   

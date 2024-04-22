@@ -4,6 +4,8 @@
     <div class="s-o-paulo">Taxa de Ouvidorias Atendidas no Prazo(%)</div>
   </div>
   <img class="ativo" src="assets/grafismo-2.png" />
+  <img class="seta" *ngIf="sentido == 'Maior'" src="assets/seta-cima.png" />
+  <img class="seta" *ngIf="sentido == 'Menor'" src="assets/seta-baixo.png" />
   <div class="line line-1" style="display: block;">
     <ngx-charts-bar-vertical-2d
       [view]="[1800,500]"

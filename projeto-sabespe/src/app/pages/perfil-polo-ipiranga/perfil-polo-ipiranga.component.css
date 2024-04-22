@@ -94,7 +94,7 @@
   .ativo-3 {
     top: 205px;
     left: 430px;
-    width: 190px;
+    width: 180px;
   }
   
   .ativo-4 {
@@ -137,58 +137,66 @@
   
   .text-wrapper {
     top: 195px;
-    left: 890px;
+    left: 875px; 
     color: #ffffff;
     font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-2 {
     top: 340px;
-    left: 1250px;
+    left: 1235px;
     color: #ffffff;
     font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-3 {
     top: 470px;
-    left: 1685px;
+    left: 1675px;
     color: #ffffff;
     font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-4 {
     top: 275px;
-    left: 450px;
+    left: 435px;
     color: #ffffff;
     font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-5 {
     top: 515px;
-    left: 188px;
+    left: 170px;
     color: #ffffff;
     font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-6 {
     top: 715px;
-    left: 455px;
+    left: 435px;
     color: #ffffff;
     font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-8 {
     top: 730px;
-    left: 1195px;
+    left: 1180px;
     color: #ffffff;
     font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-9 {
     top: 660px;
-    left: 1540px;
+    left: 1530px;
     color: #ffffff;
     font-size: 34px;
+    width: 170px;
   }
   
   .text-wrapper-10 {

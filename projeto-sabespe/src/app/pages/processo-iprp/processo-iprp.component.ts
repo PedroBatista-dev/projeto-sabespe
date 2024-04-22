@@ -14,6 +14,8 @@ export class ProcessoIPRPComponent {
 
   excelData = [];
 
+  sentido = '';
+
   customColors = [
     { name: 'Previsto', value: '#FFC601' },
     { name: 'Realizado', value: '#12D0FF' },
@@ -32,6 +34,8 @@ export class ProcessoIPRPComponent {
         this.excelData = XLSX.utils.sheet_to_json(worksheet, { raw: true });
         
         console.log(this.excelData);
+
+        this.sentido = this.excelData[36]["cSentido"];
 
         this.data = [
           {

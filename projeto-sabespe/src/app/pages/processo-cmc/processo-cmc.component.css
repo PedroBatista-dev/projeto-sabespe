@@ -49,6 +49,14 @@
   object-fit: cover;
 }
 
+.seta {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  top: 600px;
+  object-fit: cover;
+}
+
 .line {
   position: absolute;
   top: 350px;
