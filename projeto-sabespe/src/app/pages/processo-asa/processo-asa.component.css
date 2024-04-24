@@ -35,7 +35,6 @@
   font-family: "Satoshi-Black", Helvetica;
   font-weight: 900;
   color: rgba(255, 198, 1, 1);
-  width: 1300px;
   font-size: 36px;
   letter-spacing: 0;
   line-height: normal;
@@ -119,8 +118,6 @@
 }
 
 ::ng-deep .textDataLabel {
-  transform: none !important; /* Remove a transformação diagonal */
-  text-anchor: middle; /* Alinha o texto horizontalmente no centro */
   font-weight: bold; /* Aplica o estilo negrito aos rótulos de eixo X */
   font-size: 12px !important;
 }
