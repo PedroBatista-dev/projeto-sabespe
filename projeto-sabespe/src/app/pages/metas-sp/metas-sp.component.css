@@ -159,8 +159,6 @@
   }
   
   ::ng-deep .textDataLabel {
-    transform: none !important; /* Remove a transformação diagonal */
-    text-anchor: middle; /* Alinha o texto horizontalmente no centro */
     font-weight: bold; /* Aplica o estilo negrito aos rótulos de eixo X */
     font-size: 16px !important;
   }
